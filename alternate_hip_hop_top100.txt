@@ -1,5 +1,5 @@
 Generating album #100...
-F ESTJ 5w6 so/sx 5w6 8w7 3w4
+M ESFP 7w8 sp/so 7w8 9w8 3w4
 Generating album #99...
 Generating album #98...
 Generating album #97...
@@ -104,646 +104,608 @@ Generating album #1...
 ALTERNATE HIP HOP HISTORY - TOP 100 ALBUMS
 ================================================================================
 
-#100 - Paid In Full
-   Artist: V.O.S.
-      Personality: ENFP 3w4 sx/so 3w4 8w7 7w6
-   Release Date: 10/1/1995
-
-#99 - RTJ4
-   Artist: Fugee
-      Personality: INFJ 8w9 so/sp 8w9 2w1 5w4
-   Release Date: 6/10/1986
-
-#98 - Melt My Eyez See Your Future
-   Artist: Future
-      Personality: INFJ 6w5 sx/sp 6w5 1w2 4w5
-   Release Date: 11/25/1994
-
-#97 - 4eva Is a Mighty Long Time
-   Artist: Noname
-      Personality: ENTJ 3w4 sp/sx 3w4 8w7 6w5
-   Release Date: 11/20/2024
-
-#96 - Gods Father
-   Artist: Common
-      Personality: INFP 4w5 so/sx 4w5 9w1 7w6
-   Release Date: 10/24/2025
-
-#95 - Soundbombing II
-   Artist: Quasimoto
-      Personality: ESFP 7w8 sx/so 7w8 9w8 3w2
-   Release Date: 5/25/2020
-
-#94 - Muerte
-   Artist: Deltron 3030
-      Personality: INFP 2w1 sx/so 2w1 9w8 6w5
-   Release Date: 2/28/2014
-
-#93 - Southernplayalisticadillacmuzik
-   Artist: V.O.S.
-      Personality: ENFP 3w4 sx/so 3w4 8w7 7w6
-   Release Date: 7/3/1990
-
-#92 - Art Brut
-   Artist: Kanye West
-      Personality: INFJ 1w2 sx/so 1w2 4w5 6w5
-   Release Date: 11/27/1990
-
-#91 - ATLiens
-   Artists: El-P, GZA, Kanye West, Playboi Carti, Fugee
-      - El-P: ENFP 7w6 sx/so 7w6 9w8 4w3
-      - GZA: ENFJ 2w3 sx/so 2w3 9w8 7w8
-      - Kanye West: INFJ 1w2 sx/so 1w2 4w5 6w5
-      - Playboi Carti: ISTP 8w7 sx/so 8w7 3w2 5w4
-      - Fugee: INFJ 8w9 so/sp 8w9 2w1 5w4
-   Release Date: 6/9/2017
-
-#90 - Me Against the World
-   Artist: Madvillain
-      Personality: INTJ 8w9 sp/so 8w9 3w2 5w6
-   Release Date: 10/4/2003
-
-#89 - XXX
-   Artist: Pharoahe Monch
-      Personality: ESFP 3w2 sx/so 3w2 8w7 7w8
-   Release Date: 2/5/2010
-
-#88 - Beloved! Paradise! Jazz!?
-   Artists: Slum Village, Common, Deltron 3030
-      - Slum Village: ESFP 3w4 sx/so 3w4 8w7 7w8
-      - Common: INFP 4w5 so/sx 4w5 9w1 7w6
-      - Deltron 3030: INFP 2w1 sx/so 2w1 9w8 6w5
-   Release Date: 2/4/2022
-
-#87 - Aethiopes
-   Artist: Future
-      Personality: INFJ 6w5 sx/sp 6w5 1w2 4w5
-   Release Date: 5/10/2008
-
-#86 - Ill Communication
-   Artists: Lil B, Ice Cube, Pharoahe Monch, Kingpin Skinny Pimp
-      - Lil B: ENTP 5w4 so/sp 5w4 8w7 3w2
-      - Ice Cube: ENTP 7w8 so/sp 7w8 9w1 3w4
-      - Pharoahe Monch: ESFP 3w2 sx/so 3w2 8w7 7w8
-      - Kingpin Skinny Pimp: INFP 6w5 so/sp 6w5 9w1 4w3
-   Release Date: 12/10/2005
-
-#85 - Mr. Morale & The Big Steppers
-   Artists: Mobb Deep, Cannibal Ox, Canserbero, Raekwon
-      - Mobb Deep: ENFP 2w3 sp/sx 2w3 9w1 7w6
-      - Cannibal Ox: ENTJ 3w4 sx/so 3w4 8w9 6w7
-      - Canserbero: ESTP 7w8 sx/sp 7w8 9w8 3w4
-      - Raekwon: INFP 9w8 so/sp 9w8 4w5 5w6
-   Release Date: 5/22/1998
-
-#84 - Watch My Back
-   Artist: Slum Village
-      Personality: ESFP 3w4 sx/so 3w4 8w7 7w8
-   Release Date: 1/16/1989
-
-#83 - L'Ecole du Micro D'Argent
-   Artists: Heltah Skeltah, Kingpin Skinny Pimp, Danny Brown, Noname
-      - Heltah Skeltah: ISFP 9w8 sp/sx 9w8 3w2 6w7
-      - Kingpin Skinny Pimp: INFP 6w5 so/sp 6w5 9w1 4w3
-      - Danny Brown: ISTP 6w5 sx/so 6w5 9w8 3w4
-      - Noname: ENTJ 3w4 sp/sx 3w4 8w7 6w5
-   Release Date: 5/4/2006
-
-#82 - King's Disease III
-   Artist: The Roots
-      Personality: INFJ 9w1 sp/so 9w1 4w5 5w4
-   Release Date: 8/19/2020
-
-#81 - De La Soul Is Dead
-   Artists: IAM, GZA, billy woods, Capital Steez, Nujabes
-      - IAM: ENFP 7w8 sx/sp 7w8 9w8 4w3
-      - GZA: ENFJ 2w3 sx/so 2w3 9w8 7w8
-      - billy woods: ENTP 7w8 sx/sp 7w8 9w8 3w4
-      - Capital Steez: INFP 4w5 sx/sp 4w5 9w1 6w5
-      - Nujabes: ISFP 6w5 sp/sx 6w5 9w1 4w3
-   Release Date: 7/20/1988
-
-#80 - To Pimp a Butterfly
-   Artist: Pharoahe Monch
-      Personality: ESFP 3w2 sx/so 3w2 8w7 7w8
-   Release Date: 12/24/2019
-
-#79 - Ill Communication
-   Artists: JPEGMAFIA, Death Grips, Chief Keef
-      - JPEGMAFIA: INFJ 3w2 sp/sx 3w2 9w1 5w6
-      - Death Grips: INTJ 8w7 sp/sx 8w7 3w4 6w5
-      - Chief Keef: ESTP 3w4 sp/sx 3w4 8w7 7w8
-   Release Date: 1/2/1988
-
-#78 - The Low End Theory
-   Artist: Boldy James
-      Personality: INTJ 5w6 sp/so 5w6 1w9 3w4
-   Release Date: 8/24/2021
-
-#77 - Moment of Truth
-   Artist: Deltron 3030
-      Personality: INFP 2w1 sx/so 2w1 9w8 6w5
-   Release Date: 12/14/2018
-
-#76 - Train of Thought
-   Artist: Slum Village
-      Personality: ESFP 3w4 sx/so 3w4 8w7 7w8
-   Release Date: 8/20/2014
-
-#75 - On Top of the World
-   Artist: Roc Marciano
-      Personality: ENFJ 3w2 sx/sp 3w2 9w8 7w6
-   Release Date: 3/25/2025
-
-#74 - The Life of Pablo
-   Artists: PRO8L3M, JID, Travis Scott, Kanye West
-      - PRO8L3M: ESFP 7w8 so/sx 7w8 9w8 3w4
-      - JID: ESFP 7w6 sx/sp 7w6 9w8 2w3
-      - Travis Scott: ESFP 4w3 sx/so 4w3 8w7 6w7
-      - Kanye West: INFJ 1w2 sx/so 1w2 4w5 6w5
-   Release Date: 8/25/2021
-
-#73 - Metaphorical Music
-   Artist: Boldy James
-      Personality: INTJ 5w6 sp/so 5w6 1w9 3w4
-   Release Date: 5/4/2024
-
-#72 - All My Heroes Are Cornballs
-   Artist: Lil B
-      Personality: ENTP 5w4 so/sp 5w4 8w7 3w2
-   Release Date: 5/20/2009
-
-#71 - TABOO
-   Artist: Playboi Carti
-      Personality: ISTP 8w7 sx/so 8w7 3w2 5w4
-   Release Date: 9/24/2024
-
-#70 - A Day Late and a Dollar Short
-   Artist: Quadeca
-      Personality: ESFP 3w2 sp/so 3w2 8w7 7w6
-   Release Date: 12/24/1995
-
-#69 - Reachin
-   Artist: Quadeca
-      Personality: ESFP 3w2 sp/so 3w2 8w7 7w6
-   Release Date: 5/2/1991
-
-#68 - Back From the Dead 2
-   Artist: MF DOOM
-      Personality: ISTP 6w7 sp/so 6w7 8w9 4w3
-   Release Date: 4/19/1993
-
-#67 - The Main Ingredient
-   Artist: Cannibal Ox
-      Personality: ENTJ 3w4 sx/so 3w4 8w9 6w7
-   Release Date: 6/26/2013
-
-#66 - $vlena Gxmez Trvphov$$E Tvpe
-   Artist: Little Simz
-      Personality: ENFP 7w6 sp/sx 7w6 9w1 3w2
-   Release Date: 5/19/1997
-
-#65 - Below the Heavens
-   Artist: V.O.S.
-      Personality: ENFP 3w4 sx/so 3w4 8w7 7w6
-   Release Date: 2/25/2000
-
-#64 - The College Dropout
-   Artist: El-P
-      Personality: ENFP 7w6 sx/so 7w6 9w8 4w3
-   Release Date: 7/13/2016
-
-#63 - Runnin-n-Gunnin
-   Artist: Outkast
-      Personality: ESTP 7w8 so/sp 7w8 9w1 3w2
-   Release Date: 5/1/2017
-
-#62 - The Chronic
-   Artists: Black Alien, Playboi Carti, V.O.S., Chris Travis
-      - Black Alien: INFP 4w5 sp/so 4w5 9w1 6w7
-      - Playboi Carti: ISTP 8w7 sx/so 8w7 3w2 5w4
-      - V.O.S.: ENFP 3w4 sx/so 3w4 8w7 7w6
-      - Chris Travis: INFP 9w1 sx/so 9w1 4w5 6w5
-   Release Date: 10/6/1999
-
-#61 - Stankonia
-   Artist: El-P
-      Personality: ENFP 7w6 sx/so 7w6 9w8 4w3
-   Release Date: 6/22/2021
-
-#60 - Labor Days
-   Artist: Quadeca
-      Personality: ESFP 3w2 sp/so 3w2 8w7 7w6
-   Release Date: 9/1/1989
-
-#59 - Life After Death
-   Artist: Nujabes
-      Personality: ISFP 6w5 sp/sx 6w5 9w1 4w3
-   Release Date: 5/24/1987
-
-#58 - Third Side of Tape
-   Artist: Pharoahe Monch
-      Personality: ESFP 3w2 sx/so 3w2 8w7 7w8
-   Release Date: 3/7/2005
-
-#57 - Die Lit
-   Artist: Mobb Deep
-      Personality: ENFP 2w3 sp/sx 2w3 9w1 7w6
-   Release Date: 9/23/1995
-
-#56 - Reachin
-   Artist: Canserbero
-      Personality: ESTP 7w8 sx/sp 7w8 9w8 3w4
-   Release Date: 7/17/2002
-
-#55 - Soundbombing II
-   Artist: Tyler the Creator
-      Personality: ENTJ 7w8 sx/sp 7w8 1w2 3w4
-   Release Date: 10/10/2020
-
-#54 - Nocturnal
-   Artists: Makiza, MF DOOM, Koopsta Knicca
-      - Makiza: ISFP 9w8 so/sp 9w8 4w5 6w7
-      - MF DOOM: ISTP 6w7 sp/so 6w7 8w9 4w3
-      - Koopsta Knicca: ENFJ 2w3 sx/so 2w3 8w9 6w7
-   Release Date: 2/20/1995
-
-#53 - Endtroducing
-   Artist: Quadeca
-      Personality: ESFP 3w2 sp/so 3w2 8w7 7w6
-   Release Date: 4/22/1987
-
-#52 - Ashes 2 Ashes, Dust 2 Dust
-   Artist: Blu
-      Personality: ISTP 8w7 sp/sx 8w7 3w4 5w6
-   Release Date: 1/15/1993
-
-#51 - Goth Luv
-   Artists: Goodie Mob, Raekwon
-      - Goodie Mob: INFJ 2w3 sp/so 2w3 9w1 6w7
-      - Raekwon: INFP 9w8 so/sp 9w8 4w5 5w6
-   Release Date: 3/14/2008
-
-#50 - Die Lit
-   Artist: Dalek
-      Personality: INFJ 1w2 sx/sp 1w2 4w5 6w5
-   Release Date: 2/20/1992
-
-#49 - Runnin-n-Gunnin
-   Artist: Death Grips
-      Personality: INTJ 8w7 sp/sx 8w7 3w4 6w5
-   Release Date: 5/2/1998
-
-#48 - By the Time I Get to Phoenix
-   Artist: Heltah Skeltah
-      Personality: ISFP 9w8 sp/sx 9w8 3w2 6w7
-   Release Date: 4/20/1998
-
-#47 - The Minstrel Show
-   Artist: Danny Brown
-      Personality: ISTP 6w5 sx/so 6w5 9w8 3w4
-   Release Date: 1/21/2013
-
-#46 - GTBSG
-   Artist: Koopsta Knicca
-      Personality: ENFJ 2w3 sx/so 2w3 8w9 6w7
-   Release Date: 8/25/2009
-
-#45 - Maps
-   Artist: BROCKHAMPTON
-      Personality: ENTP 5w4 sp/sx 5w4 8w7 3w2
-   Release Date: 5/2/2016
-
-#44 - Luh Hertz
-   Artists: Tommy Wright III, Boldy James, Big Pun, Nujabes
-      - Tommy Wright III: ENFJ 3w2 so/sp 3w2 1w2 6w7
-      - Boldy James: INTJ 5w6 sp/so 5w6 1w9 3w4
-      - Big Pun: ENFP 2w3 sp/sx 2w3 9w8 6w5
-      - Nujabes: ISFP 6w5 sp/sx 6w5 9w1 4w3
-   Release Date: 1/19/2002
-
-#43 - Black Star
-   Artist: Koopsta Knicca
-      Personality: ENFJ 2w3 sx/so 2w3 8w9 6w7
-   Release Date: 12/9/1989
-
-#42 - Soul Food
-   Artist: Pharoahe Monch
-      Personality: ESFP 3w2 sx/so 3w2 8w7 7w8
-   Release Date: 2/5/2019
-
-#41 - Quaranta
-   Artist: Black Alien
-      Personality: INFP 4w5 sp/so 4w5 9w1 6w7
-   Release Date: 12/21/2011
-
-#40 - Good kid, m.a.a.d city
-   Artist: Black Alien
-      Personality: INFP 4w5 sp/so 4w5 9w1 6w7
-   Release Date: 8/5/2019
-
-#39 - Memento Mori
-   Artist: Nas
-      Personality: INTJ 5w4 so/sp 5w4 8w7 3w4
-   Release Date: 6/3/1985
-
-#38 - Flower Boy
-   Artist: Ice Cube
-      Personality: ENTP 7w8 so/sp 7w8 9w1 3w4
-   Release Date: 4/25/2015
-
-#37 - The Lost Tapes
-   Artist: Cannibal Ox
-      Personality: ENTJ 3w4 sx/so 3w4 8w9 6w7
-   Release Date: 11/3/1998
-
-#36 - Sometimes I Might Be Introvert
-   Artist: Common
-      Personality: INFP 4w5 so/sx 4w5 9w1 7w6
-   Release Date: 10/7/2019
-
-#35 - Run the Jewels 2
-   Artist: Roc Marciano
-      Personality: ENFJ 3w2 sx/sp 3w2 9w8 7w6
-   Release Date: 6/7/2016
-
-#34 - Swimming
-   Artist: Danger Mouse
-      Personality: ENFP 9w8 sx/so 9w8 4w3 6w7
-   Release Date: 1/22/2012
-
-#33 - Yayayi
-   Artist: Future
-      Personality: INFJ 6w5 sx/sp 6w5 1w2 4w5
-   Release Date: 12/11/2013
-
-#32 - Daily Operation
-   Artist: JPEGMAFIA
-      Personality: INFJ 3w2 sp/sx 3w2 9w1 5w6
-   Release Date: 12/3/1990
-
-#31 - Stankonia
-   Artist: MF DOOM
-      Personality: ISTP 6w7 sp/so 6w7 8w9 4w3
-   Release Date: 5/26/1997
-
-#30 - The College Dropout
-   Artist: V.O.S.
-      Personality: ENFP 3w4 sx/so 3w4 8w7 7w6
-   Release Date: 1/18/1997
-
-#29 - Doggystyle
-   Artist: Nas
-      Personality: INTJ 5w4 so/sp 5w4 8w7 3w4
-   Release Date: 10/20/1996
-
-#28 - Jenny Death
-   Artist: Black Alien
-      Personality: INFP 4w5 sp/so 4w5 9w1 6w7
-   Release Date: 5/17/2018
-
-#27 - Saturation III
-   Artist: Boldy James
-      Personality: INTJ 5w6 sp/so 5w6 1w9 3w4
-   Release Date: 11/17/2006
-
-#26 - Twerkin 10 Cellphone$
-   Artist: JID
-      Personality: ESFP 7w6 sx/sp 7w6 9w8 2w3
-   Release Date: 11/19/2024
-
-#25 - Tana Talk 3
-   Artist: Chris Travis
-      Personality: INFP 9w1 sx/so 9w1 4w5 6w5
-   Release Date: 11/27/1987
-
-#24 - Soul Food
-   Artists: Lil Ugly Mane, clipping., Future, Main Source, IAM
-      - Lil Ugly Mane: ENTP 7w6 sp/so 7w6 9w8 3w2
-      - clipping.: ESFP 3w4 sp/so 3w4 8w7 7w8
-      - Future: INFJ 6w5 sx/sp 6w5 1w2 4w5
-      - Main Source: INFP 4w5 sp/sx 4w5 9w1 6w7
-      - IAM: ENFP 7w8 sx/sp 7w8 9w8 4w3
-   Release Date: 1/28/2007
-
-#23 - Ridin Dirty
-   Artist: Goodie Mob
-      Personality: INFJ 2w3 sp/so 2w3 9w1 6w7
-   Release Date: 9/25/1997
-
-#22 - Return to the 36 Chambers
-   Artist: Roc Marciano
-      Personality: ENFJ 3w2 sx/sp 3w2 9w8 7w6
-   Release Date: 1/18/2009
-
-#21 - Crack Cloud$ OVer Arts Kitchen
-   Artist: Black Alien
-      Personality: INFP 4w5 sp/so 4w5 9w1 6w7
-   Release Date: 7/6/2016
-
-#20 - King's Disease III
-   Artist: Lil B
-      Personality: ENTP 5w4 so/sp 5w4 8w7 3w2
-   Release Date: 7/17/2019
-
-#19 - Flower Boy
-   Artist: Three-6 Mafia
-      Personality: ISFP 3w4 sx/sp 3w4 9w8 6w7
-   Release Date: 11/16/2022
-
-#18 - Reachin
-   Artist: Future
-      Personality: INFJ 6w5 sx/sp 6w5 1w2 4w5
-   Release Date: 4/21/2020
-
-#17 - Adromicfms 4
-   Artist: Danger Mouse
-      Personality: ENFP 9w8 sx/so 9w8 4w3 6w7
-   Release Date: 10/25/2003
-
-#16 - Breaking Atoms
-   Artists: SpaceGhostPurrp, Slum Village
-      - SpaceGhostPurrp: ESTP 8w7 so/sp 8w7 3w2 5w6
-      - Slum Village: ESFP 3w4 sx/so 3w4 8w7 7w8
-   Release Date: 5/20/1986
-
-#15 - Brass
-   Artist: Common
-      Personality: INFP 4w5 so/sx 4w5 9w1 7w6
-   Release Date: 3/7/2017
-
-#14 - Soundbombing II
-   Artist: Kanye West
-      Personality: INFJ 1w2 sx/so 1w2 4w5 6w5
-   Release Date: 10/10/2003
-
-#13 - Veneno
-   Artist: Lil B
-      Personality: ENTP 5w4 so/sp 5w4 8w7 3w2
-   Release Date: 6/5/2023
-
-#12 - Black Star
-   Artist: Black Alien
-      Personality: INFP 4w5 sp/so 4w5 9w1 6w7
-   Release Date: 6/12/2025
-
-#11 - Absence
-   Artist: SpaceGhostPurrp
-      Personality: ESTP 8w7 so/sp 8w7 3w2 5w6
-   Release Date: 1/12/1985
-
-#10 - 1999
-   Artist: El-P
-      Personality: ENFP 7w6 sx/so 7w6 9w8 4w3
-   Release Date: 3/14/2024
-
-#9 - Da Devil's Playground: Underground Solo
-   Artist: Madvillain
-      Personality: INTJ 8w9 sp/so 8w9 3w2 5w6
-   Release Date: 7/5/2016
-
-#8 - Organized Konfusion
-   Artist: PRO8L3M
-      Personality: ESFP 7w8 so/sx 7w8 9w8 3w4
-   Release Date: 7/16/2014
-
-#7 - Operation: Doomsday
-   Artist: O.C.
-      Personality: ESFP 7w6 so/sp 7w6 9w8 3w2
-   Release Date: 7/5/2000
-
-#6 - Center of Attention
-   Artist: Capital Steez
-      Personality: INFP 4w5 sx/sp 4w5 9w1 6w5
-   Release Date: 10/1/2003
-
-#5 - Mecca and the Soul Brother
-   Artist: Playboi Carti
-      Personality: ISTP 8w7 sx/so 8w7 3w2 5w4
-   Release Date: 3/1/2021
-
-#4 - XXX
-   Artist: O.C.
-      Personality: ESFP 7w6 so/sp 7w6 9w8 3w2
-   Release Date: 12/1/1998
-
-#3 - Some Rap Songs
-   Artist: Koopsta Knicca
-      Personality: ENFJ 2w3 sx/so 2w3 8w9 6w7
-   Release Date: 4/27/1991
-
-#2 - Critical Beatdown
-   Artist: Mobb Deep
-      Personality: ENFP 2w3 sp/sx 2w3 9w1 7w6
-   Release Date: 2/6/1997
-
-#1 - Word…Life
-   Artist: Mobb Deep
-      Personality: ENFP 2w3 sp/sx 2w3 9w1 7w6
-   Release Date: 5/19/1992
+#100 - Metaphorical Music
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 12/19/1987
+
+#99 - Third Side of Tape
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 2/18/2001
+
+#98 - AmeriKKKa's Most Wanted
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 8/4/2003
+
+#97 - DAYTONA
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 2/21/2010
+
+#96 - Daily Operation
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 7/6/2025
+
+#95 - The Life of Pablo
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 8/6/2015
+
+#94 - Rodeo
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 10/22/2015
+
+#93 - Me Against the World
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 2/10/1985
+
+#92 - Paid In Full
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 9/11/1992
+
+#91 - Funcrusher Plus
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 11/25/2002
+
+#90 - Some Rap Songs
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 8/21/2001
+
+#89 - The Main Ingredient
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 8/7/1989
+
+#88 - Call Me If You Get Lost
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 2/6/1996
+
+#87 - The Cold Vein
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 1/11/2025
+
+#86 - Well Isn't This Awkward
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 1/20/2003
+
+#85 - King's Disease III
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 6/24/1995
+
+#84 - Scaring the Hoes
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 12/8/2025
+
+#83 - Call Me If You Get Lost
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 12/20/2004
+
+#82 - Breaking Atoms
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 2/22/1987
+
+#81 - The Miseducation of Lauryn Hill
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 4/5/2010
+
+#80 - Fantastic Damage
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 2/8/1992
+
+#79 - Mauvais Oeil
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 10/1/1999
+
+#78 - The Sun Rises in the East
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 7/23/2010
+
+#77 - Fishscale
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 9/14/1992
+
+#76 - 6 Feet Deep
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 5/3/2019
+
+#75 - Endtroducing
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 7/7/2001
+
+#74 - Southernplayalisticadillacmuzik
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 10/25/2020
+
+#73 - Saturation II
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 3/8/1993
+
+#72 - My Beautiful Dark Twisted Fantasy
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 1/15/1997
+
+#71 - People's Instinctive Travels and the Paths of Rhythm
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 6/13/2003
+
+#70 - Moment of Truth
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 6/16/1993
+
+#69 - 93 Til' Infinity
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 7/9/2000
+
+#68 - We Got it From Here; Thank You 4 Your Service
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 10/13/2025
+
+#67 - Funcrusher Plus
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 8/19/2022
+
+#66 - Fishscale
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 10/7/1990
+
+#65 - Almighty So
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 6/17/2012
+
+#64 - Mauvais Oeil
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 5/16/1993
+
+#63 - 6 Feet Deep
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 12/11/2018
+
+#62 - Dah Shinin'
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 6/17/1996
+
+#61 - The Life of Pablo
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 5/22/2002
+
+#60 - Cheat Codes
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 7/7/2016
+
+#59 - XXX
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 11/21/1990
+
+#58 - Bandana
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 10/18/2025
+
+#57 - The Diary
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 8/7/1986
+
+#56 - Steal This Album
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 9/3/2000
+
+#55 - Atrocity Exhibition
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 11/17/1999
+
+#54 - Whut?
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 4/13/2022
+
+#53 - The Low End Theory
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 3/15/2014
+
+#52 - Hard to Earn
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 10/26/2018
+
+#51 - Supreme Clientele
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 2/13/1993
+
+#50 - Labor Days
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 12/19/1985
+
+#49 - Luh Hertz
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 8/15/2021
+
+#48 - Luh Hertz
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 8/11/1988
+
+#47 - We Buy Diabetic Test Strips
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 10/6/2018
+
+#46 - The Life of Pablo
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 8/16/2007
+
+#45 - People's Instinctive Travels and the Paths of Rhythm
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 11/24/2008
+
+#44 - 4, 5, 6
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 8/9/2007
+
+#43 - Sometimes I Might Be Introvert
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 1/18/1988
+
+#42 - The Life of Pablo
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 10/28/2023
+
+#41 - People's Instinctive Travels and the Paths of Rhythm
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 9/6/2010
+
+#40 - Doggystyle
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 2/25/1998
+
+#39 - 4eva Is a Mighty Long Time
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 5/23/2024
+
+#38 - King's Disease III
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 8/28/2019
+
+#37 - Labcabincalifornia
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 3/11/1990
+
+#36 - Romantizma
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 2/5/2015
+
+#35 - The Forever Story
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 2/27/2018
+
+#34 - Adromicfms 4
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 2/11/2021
+
+#33 - Aquemini
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 9/17/2016
+
+#32 - Be
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 3/17/2010
+
+#31 - Things Fall Apart
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 7/13/2004
+
+#30 - Melt My Eyez See Your Future
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 10/25/1994
+
+#29 - Aquemini
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 1/21/2005
+
+#28 - Maps
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 12/6/1985
+
+#27 - The Marshall Mathers LP
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 10/5/2007
+
+#26 - Live and Let Die
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 8/19/2019
+
+#25 - Icedancer
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 7/5/2021
+
+#24 - Modal Soul
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 2/8/1993
+
+#23 - Hard to Earn
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 5/21/2014
+
+#22 - Art Brut
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 4/28/1989
+
+#21 - Fear of a Black Planet
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 7/2/2004
+
+#20 - Ser Humano!!
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 4/11/1996
+
+#19 - Scaring the Hoes
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 7/14/1991
+
+#18 - Resurrection
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 11/21/2002
+
+#17 - 4, 5, 6
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 4/13/2004
+
+#16 - Memento Mori
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 6/18/2016
+
+#15 - Dreamcast Summer Songs
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 3/23/2008
+
+#14 - Manger on McNichols
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 12/9/2006
+
+#13 - Things Fall Apart
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 4/18/2005
+
+#12 - Midnight Marauders
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 10/9/2014
+
+#11 - Only Built 4 Cuban Linx
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 10/28/2011
+
+#10 - Good kid, m.a.a.d city
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 10/23/2005
+
+#9 - Sometimes I Might Be Introvert
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 12/5/2002
+
+#8 - Vol. 9mm "It's On"
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 12/21/2018
+
+#7 - King of da Playaz Ball
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 8/26/2010
+
+#6 - Nocturnal
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 4/13/1990
+
+#5 - Telefone
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 9/12/1990
+
+#4 - Mr. Morale & The Big Steppers
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 1/22/1990
+
+#3 - The Gospel According To
+   Artists: Kingpin Skinny Pimp
+      - Kingpin Skinny Pimp: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 11/20/1995
+
+#2 - TABOO
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 2/3/2008
+
+#1 - Absence
+   Artist: Kingpin Skinny Pimp
+      Personality: ISFP 9w8 so/sx 9w8 2w3 6w7
+   Release Date: 10/13/2014
 
 
 ================================================================================
 CHRONOLOGICAL ORDER
 ================================================================================
 
-1/12/1985 - Absence by SpaceGhostPurrp (#11)
-6/3/1985 - Memento Mori by Nas (#39)
-5/20/1986 - Breaking Atoms by SpaceGhostPurrp, Slum Village (#16)
-6/10/1986 - RTJ4 by Fugee (#99)
-4/22/1987 - Endtroducing by Quadeca (#53)
-5/24/1987 - Life After Death by Nujabes (#59)
-11/27/1987 - Tana Talk 3 by Chris Travis (#25)
-1/2/1988 - Ill Communication by JPEGMAFIA, Death Grips, Chief Keef (#79)
-7/20/1988 - De La Soul Is Dead by IAM, GZA, billy woods, Capital Steez, Nujabes (#81)
-1/16/1989 - Watch My Back by Slum Village (#84)
-9/1/1989 - Labor Days by Quadeca (#60)
-12/9/1989 - Black Star by Koopsta Knicca (#43)
-7/3/1990 - Southernplayalisticadillacmuzik by V.O.S. (#93)
-11/27/1990 - Art Brut by Kanye West (#92)
-12/3/1990 - Daily Operation by JPEGMAFIA (#32)
-4/27/1991 - Some Rap Songs by Koopsta Knicca (#3)
-5/2/1991 - Reachin by Quadeca (#69)
-2/20/1992 - Die Lit by Dalek (#50)
-5/19/1992 - Word…Life by Mobb Deep (#1)
-1/15/1993 - Ashes 2 Ashes, Dust 2 Dust by Blu (#52)
-4/19/1993 - Back From the Dead 2 by MF DOOM (#68)
-11/25/1994 - Melt My Eyez See Your Future by Future (#98)
-2/20/1995 - Nocturnal by Makiza, MF DOOM, Koopsta Knicca (#54)
-9/23/1995 - Die Lit by Mobb Deep (#57)
-10/1/1995 - Paid In Full by V.O.S. (#100)
-12/24/1995 - A Day Late and a Dollar Short by Quadeca (#70)
-10/20/1996 - Doggystyle by Nas (#29)
-1/18/1997 - The College Dropout by V.O.S. (#30)
-2/6/1997 - Critical Beatdown by Mobb Deep (#2)
-5/19/1997 - $vlena Gxmez Trvphov$$E Tvpe by Little Simz (#66)
-5/26/1997 - Stankonia by MF DOOM (#31)
-9/25/1997 - Ridin Dirty by Goodie Mob (#23)
-4/20/1998 - By the Time I Get to Phoenix by Heltah Skeltah (#48)
-5/2/1998 - Runnin-n-Gunnin by Death Grips (#49)
-5/22/1998 - Mr. Morale & The Big Steppers by Mobb Deep, Cannibal Ox, Canserbero, Raekwon (#85)
-11/3/1998 - The Lost Tapes by Cannibal Ox (#37)
-12/1/1998 - XXX by O.C. (#4)
-10/6/1999 - The Chronic by Black Alien, Playboi Carti, V.O.S., Chris Travis (#62)
-2/25/2000 - Below the Heavens by V.O.S. (#65)
-7/5/2000 - Operation: Doomsday by O.C. (#7)
-1/19/2002 - Luh Hertz by Tommy Wright III, Boldy James, Big Pun, Nujabes (#44)
-7/17/2002 - Reachin by Canserbero (#56)
-10/1/2003 - Center of Attention by Capital Steez (#6)
-10/4/2003 - Me Against the World by Madvillain (#90)
-10/10/2003 - Soundbombing II by Kanye West (#14)
-10/25/2003 - Adromicfms 4 by Danger Mouse (#17)
-3/7/2005 - Third Side of Tape by Pharoahe Monch (#58)
-12/10/2005 - Ill Communication by Lil B, Ice Cube, Pharoahe Monch, Kingpin Skinny Pimp (#86)
-5/4/2006 - L'Ecole du Micro D'Argent by Heltah Skeltah, Kingpin Skinny Pimp, Danny Brown, Noname (#83)
-11/17/2006 - Saturation III by Boldy James (#27)
-1/28/2007 - Soul Food by Lil Ugly Mane, clipping., Future, Main Source, IAM (#24)
-3/14/2008 - Goth Luv by Goodie Mob, Raekwon (#51)
-5/10/2008 - Aethiopes by Future (#87)
-1/18/2009 - Return to the 36 Chambers by Roc Marciano (#22)
-5/20/2009 - All My Heroes Are Cornballs by Lil B (#72)
-8/25/2009 - GTBSG by Koopsta Knicca (#46)
-2/5/2010 - XXX by Pharoahe Monch (#89)
-12/21/2011 - Quaranta by Black Alien (#41)
-1/22/2012 - Swimming by Danger Mouse (#34)
-1/21/2013 - The Minstrel Show by Danny Brown (#47)
-6/26/2013 - The Main Ingredient by Cannibal Ox (#67)
-12/11/2013 - Yayayi by Future (#33)
-2/28/2014 - Muerte by Deltron 3030 (#94)
-7/16/2014 - Organized Konfusion by PRO8L3M (#8)
-8/20/2014 - Train of Thought by Slum Village (#76)
-4/25/2015 - Flower Boy by Ice Cube (#38)
-5/2/2016 - Maps by BROCKHAMPTON (#45)
-6/7/2016 - Run the Jewels 2 by Roc Marciano (#35)
-7/5/2016 - Da Devil's Playground: Underground Solo by Madvillain (#9)
-7/6/2016 - Crack Cloud$ OVer Arts Kitchen by Black Alien (#21)
-7/13/2016 - The College Dropout by El-P (#64)
-3/7/2017 - Brass by Common (#15)
-5/1/2017 - Runnin-n-Gunnin by Outkast (#63)
-6/9/2017 - ATLiens by El-P, GZA, Kanye West, Playboi Carti, Fugee (#91)
-5/17/2018 - Jenny Death by Black Alien (#28)
-12/14/2018 - Moment of Truth by Deltron 3030 (#77)
-2/5/2019 - Soul Food by Pharoahe Monch (#42)
-7/17/2019 - King's Disease III by Lil B (#20)
-8/5/2019 - Good kid, m.a.a.d city by Black Alien (#40)
-10/7/2019 - Sometimes I Might Be Introvert by Common (#36)
-12/24/2019 - To Pimp a Butterfly by Pharoahe Monch (#80)
-4/21/2020 - Reachin by Future (#18)
-5/25/2020 - Soundbombing II by Quasimoto (#95)
-8/19/2020 - King's Disease III by The Roots (#82)
-10/10/2020 - Soundbombing II by Tyler the Creator (#55)
-3/1/2021 - Mecca and the Soul Brother by Playboi Carti (#5)
-6/22/2021 - Stankonia by El-P (#61)
-8/24/2021 - The Low End Theory by Boldy James (#78)
-8/25/2021 - The Life of Pablo by PRO8L3M, JID, Travis Scott, Kanye West (#74)
-2/4/2022 - Beloved! Paradise! Jazz!? by Slum Village, Common, Deltron 3030 (#88)
-11/16/2022 - Flower Boy by Three-6 Mafia (#19)
-6/5/2023 - Veneno by Lil B (#13)
-3/14/2024 - 1999 by El-P (#10)
-5/4/2024 - Metaphorical Music by Boldy James (#73)
-9/24/2024 - TABOO by Playboi Carti (#71)
-11/19/2024 - Twerkin 10 Cellphone$ by JID (#26)
-11/20/2024 - 4eva Is a Mighty Long Time by Noname (#97)
-3/25/2025 - On Top of the World by Roc Marciano (#75)
-6/12/2025 - Black Star by Black Alien (#12)
-10/24/2025 - Gods Father by Common (#96)
+2/10/1985 - Me Against the World by Kingpin Skinny Pimp (#93)
+12/6/1985 - Maps by Kingpin Skinny Pimp (#28)
+12/19/1985 - Labor Days by Kingpin Skinny Pimp (#50)
+8/7/1986 - The Diary by Kingpin Skinny Pimp (#57)
+2/22/1987 - Breaking Atoms by Kingpin Skinny Pimp (#82)
+12/19/1987 - Metaphorical Music by Kingpin Skinny Pimp (#100)
+1/18/1988 - Sometimes I Might Be Introvert by Kingpin Skinny Pimp (#43)
+8/11/1988 - Luh Hertz by Kingpin Skinny Pimp (#48)
+4/28/1989 - Art Brut by Kingpin Skinny Pimp (#22)
+8/7/1989 - The Main Ingredient by Kingpin Skinny Pimp (#89)
+1/22/1990 - Mr. Morale & The Big Steppers by Kingpin Skinny Pimp (#4)
+3/11/1990 - Labcabincalifornia by Kingpin Skinny Pimp (#37)
+4/13/1990 - Nocturnal by Kingpin Skinny Pimp (#6)
+9/12/1990 - Telefone by Kingpin Skinny Pimp (#5)
+10/7/1990 - Fishscale by Kingpin Skinny Pimp (#66)
+11/21/1990 - XXX by Kingpin Skinny Pimp (#59)
+7/14/1991 - Scaring the Hoes by Kingpin Skinny Pimp (#19)
+2/8/1992 - Fantastic Damage by Kingpin Skinny Pimp (#80)
+9/11/1992 - Paid In Full by Kingpin Skinny Pimp (#92)
+9/14/1992 - Fishscale by Kingpin Skinny Pimp (#77)
+2/8/1993 - Modal Soul by Kingpin Skinny Pimp (#24)
+2/13/1993 - Supreme Clientele by Kingpin Skinny Pimp (#51)
+3/8/1993 - Saturation II by Kingpin Skinny Pimp (#73)
+5/16/1993 - Mauvais Oeil by Kingpin Skinny Pimp (#64)
+6/16/1993 - Moment of Truth by Kingpin Skinny Pimp (#70)
+10/25/1994 - Melt My Eyez See Your Future by Kingpin Skinny Pimp (#30)
+6/24/1995 - King's Disease III by Kingpin Skinny Pimp (#85)
+11/20/1995 - The Gospel According To by Kingpin Skinny Pimp (#3)
+2/6/1996 - Call Me If You Get Lost by Kingpin Skinny Pimp (#88)
+4/11/1996 - Ser Humano!! by Kingpin Skinny Pimp (#20)
+6/17/1996 - Dah Shinin' by Kingpin Skinny Pimp (#62)
+1/15/1997 - My Beautiful Dark Twisted Fantasy by Kingpin Skinny Pimp (#72)
+2/25/1998 - Doggystyle by Kingpin Skinny Pimp (#40)
+10/1/1999 - Mauvais Oeil by Kingpin Skinny Pimp (#79)
+11/17/1999 - Atrocity Exhibition by Kingpin Skinny Pimp (#55)
+7/9/2000 - 93 Til' Infinity by Kingpin Skinny Pimp (#69)
+9/3/2000 - Steal This Album by Kingpin Skinny Pimp (#56)
+2/18/2001 - Third Side of Tape by Kingpin Skinny Pimp (#99)
+7/7/2001 - Endtroducing by Kingpin Skinny Pimp (#75)
+8/21/2001 - Some Rap Songs by Kingpin Skinny Pimp (#90)
+5/22/2002 - The Life of Pablo by Kingpin Skinny Pimp (#61)
+11/21/2002 - Resurrection by Kingpin Skinny Pimp (#18)
+11/25/2002 - Funcrusher Plus by Kingpin Skinny Pimp (#91)
+12/5/2002 - Sometimes I Might Be Introvert by Kingpin Skinny Pimp (#9)
+1/20/2003 - Well Isn't This Awkward by Kingpin Skinny Pimp (#86)
+6/13/2003 - People's Instinctive Travels and the Paths of Rhythm by Kingpin Skinny Pimp (#71)
+8/4/2003 - AmeriKKKa's Most Wanted by Kingpin Skinny Pimp (#98)
+4/13/2004 - 4, 5, 6 by Kingpin Skinny Pimp (#17)
+7/2/2004 - Fear of a Black Planet by Kingpin Skinny Pimp (#21)
+7/13/2004 - Things Fall Apart by Kingpin Skinny Pimp (#31)
+12/20/2004 - Call Me If You Get Lost by Kingpin Skinny Pimp (#83)
+1/21/2005 - Aquemini by Kingpin Skinny Pimp (#29)
+4/18/2005 - Things Fall Apart by Kingpin Skinny Pimp (#13)
+10/23/2005 - Good kid, m.a.a.d city by Kingpin Skinny Pimp (#10)
+12/9/2006 - Manger on McNichols by Kingpin Skinny Pimp (#14)
+8/9/2007 - 4, 5, 6 by Kingpin Skinny Pimp (#44)
+8/16/2007 - The Life of Pablo by Kingpin Skinny Pimp (#46)
+10/5/2007 - The Marshall Mathers LP by Kingpin Skinny Pimp (#27)
+2/3/2008 - TABOO by Kingpin Skinny Pimp (#2)
+3/23/2008 - Dreamcast Summer Songs by Kingpin Skinny Pimp (#15)
+11/24/2008 - People's Instinctive Travels and the Paths of Rhythm by Kingpin Skinny Pimp (#45)
+2/21/2010 - DAYTONA by Kingpin Skinny Pimp (#97)
+3/17/2010 - Be by Kingpin Skinny Pimp (#32)
+4/5/2010 - The Miseducation of Lauryn Hill by Kingpin Skinny Pimp (#81)
+7/23/2010 - The Sun Rises in the East by Kingpin Skinny Pimp (#78)
+8/26/2010 - King of da Playaz Ball by Kingpin Skinny Pimp (#7)
+9/6/2010 - People's Instinctive Travels and the Paths of Rhythm by Kingpin Skinny Pimp (#41)
+10/28/2011 - Only Built 4 Cuban Linx by Kingpin Skinny Pimp (#11)
+6/17/2012 - Almighty So by Kingpin Skinny Pimp (#65)
+3/15/2014 - The Low End Theory by Kingpin Skinny Pimp (#53)
+5/21/2014 - Hard to Earn by Kingpin Skinny Pimp (#23)
+10/9/2014 - Midnight Marauders by Kingpin Skinny Pimp (#12)
+10/13/2014 - Absence by Kingpin Skinny Pimp (#1)
+2/5/2015 - Romantizma by Kingpin Skinny Pimp (#36)
+8/6/2015 - The Life of Pablo by Kingpin Skinny Pimp (#95)
+10/22/2015 - Rodeo by Kingpin Skinny Pimp (#94)
+6/18/2016 - Memento Mori by Kingpin Skinny Pimp (#16)
+7/7/2016 - Cheat Codes by Kingpin Skinny Pimp (#60)
+9/17/2016 - Aquemini by Kingpin Skinny Pimp (#33)
+2/27/2018 - The Forever Story by Kingpin Skinny Pimp (#35)
+10/6/2018 - We Buy Diabetic Test Strips by Kingpin Skinny Pimp (#47)
+10/26/2018 - Hard to Earn by Kingpin Skinny Pimp (#52)
+12/11/2018 - 6 Feet Deep by Kingpin Skinny Pimp (#63)
+12/21/2018 - Vol. 9mm "It's On" by Kingpin Skinny Pimp (#8)
+5/3/2019 - 6 Feet Deep by Kingpin Skinny Pimp (#76)
+8/19/2019 - Live and Let Die by Kingpin Skinny Pimp (#26)
+8/28/2019 - King's Disease III by Kingpin Skinny Pimp (#38)
+10/25/2020 - Southernplayalisticadillacmuzik by Kingpin Skinny Pimp (#74)
+2/11/2021 - Adromicfms 4 by Kingpin Skinny Pimp (#34)
+7/5/2021 - Icedancer by Kingpin Skinny Pimp (#25)
+8/15/2021 - Luh Hertz by Kingpin Skinny Pimp (#49)
+4/13/2022 - Whut? by Kingpin Skinny Pimp (#54)
+8/19/2022 - Funcrusher Plus by Kingpin Skinny Pimp (#67)
+10/28/2023 - The Life of Pablo by Kingpin Skinny Pimp (#42)
+5/23/2024 - 4eva Is a Mighty Long Time by Kingpin Skinny Pimp (#39)
+1/11/2025 - The Cold Vein by Kingpin Skinny Pimp (#87)
+7/6/2025 - Daily Operation by Kingpin Skinny Pimp (#96)
+10/13/2025 - We Got it From Here; Thank You 4 Your Service by Kingpin Skinny Pimp (#68)
+10/18/2025 - Bandana by Kingpin Skinny Pimp (#58)
+12/8/2025 - Scaring the Hoes by Kingpin Skinny Pimp (#84)

@@ -330,12 +330,6 @@ def reserve_album_positions(rapper, current_position):
         if len(available) >= num_reservations:
             rapper.reserved_positions = random.sample(available, num_reservations)
             rapper.reserved_positions.sort(reverse=True)
-            print(f"  → NEW RAPPER '{rapper.name}' created at position #{current_position}")
-            print(f"     Reserved {num_reservations} future albums at positions: {rapper.reserved_positions}")
-    else:
-        if num_reservations > 0:
-            print(f"  → NEW RAPPER '{rapper.name}' created at position #{current_position}")
-            print(f"     No reservations (too close to end of list)")
 
 def generate_random_date(min_year=1985, max_year=2025):
     """Generate a random date between min_year and max_year"""
@@ -423,18 +417,10 @@ def generate_top_100():
 
     # Generate albums from position 100 down to 1
     for position in range(100, 0, -1):
-        print(f"\nGenerating album #{position}...")
+        print(f"Generating album #{position}...")
 
         # Check if all reservations have been filled (no more reserved positions ahead)
         all_reservations_filled = len(reserved_positions) == 0 or min(reserved_positions.keys()) > position
-
-        if reserved_positions:
-            min_reserved = min(reserved_positions.keys())
-            print(f"  Reservations: {len(reserved_positions)} positions remaining, earliest at #{min_reserved}")
-            print(f"  all_reservations_filled = {all_reservations_filled}")
-        else:
-            print(f"  Reservations: None remaining")
-            print(f"  all_reservations_filled = {all_reservations_filled}")
 
         # Check if this position is reserved for a specific rapper
         if position in reserved_positions:
