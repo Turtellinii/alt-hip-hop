@@ -330,6 +330,13 @@ def reserve_album_positions(rapper, current_position):
         if len(available) >= num_reservations:
             rapper.reserved_positions = random.sample(available, num_reservations)
             rapper.reserved_positions.sort(reverse=True)
+            print(f"    ✓ NEW RAPPER '{rapper.name}' at #{current_position}")
+            print(f"      Reserved {num_reservations} albums: {rapper.reserved_positions}")
+    else:
+        if num_reservations == 0:
+            print(f"    ✓ NEW RAPPER '{rapper.name}' at #{current_position} (0 reservations)")
+        else:
+            print(f"    ✓ NEW RAPPER '{rapper.name}' at #{current_position} (too close to end, no reservations)")
 
 def generate_random_date(min_year=1985, max_year=2025):
     """Generate a random date between min_year and max_year"""
@@ -605,6 +612,13 @@ def generate_top_100():
             )
 
         albums.append(album)
+
+        # Show remaining reservations after this album
+        if reserved_positions:
+            reserved_list = sorted(reserved_positions.keys(), reverse=True)
+            print(f"  → Remaining reservations ({len(reserved_list)}): {reserved_list[:10]}{'...' if len(reserved_list) > 10 else ''}")
+        else:
+            print(f"  → No more reservations remaining")
 
     return albums
 
