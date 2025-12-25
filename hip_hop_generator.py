@@ -324,12 +324,20 @@ def determine_future_albums():
 def reserve_album_positions(rapper, current_position, already_reserved_set):
     """Reserve random positions from the remaining albums for this rapper"""
     num_reservations = determine_future_albums()
+    print(f"      [DEBUG] Rapper {rapper.name} at #{current_position}: wants {num_reservations} reservations")
+    print(f"      [DEBUG] Already reserved: {len(already_reserved_set)} positions")
     if num_reservations > 0 and current_position > num_reservations:
         # Only include positions that aren't already reserved
         available = [p for p in range(1, current_position) if p not in already_reserved_set]
+        print(f"      [DEBUG] Available positions: {len(available)} out of {current_position-1}")
         if len(available) >= num_reservations:
             rapper.reserved_positions = random.sample(available, num_reservations)
             rapper.reserved_positions.sort(reverse=True)
+            print(f"      [DEBUG] RESERVED: {rapper.reserved_positions}")
+        else:
+            print(f"      [DEBUG] Not enough available positions!")
+    else:
+        print(f"      [DEBUG] Cannot reserve (condition failed: {num_reservations} > 0 and {current_position} > {num_reservations})")
 
 def generate_random_date(min_year=1985, max_year=2025):
     """Generate a random date between min_year and max_year"""
@@ -421,12 +429,21 @@ def generate_top_100():
 
     # Generate albums from position 100 down to 1
     for position in range(100, 0, -1):
+        print(f"\n{'='*60}")
+        print(f"POSITION #{position}")
+        print(f"{'='*60}")
+
         # Check if ALL positions ahead are reserved (100% coverage)
         positions_ahead = set(range(1, position))
         reserved_ahead = set(reserved_positions.keys())
         unreserved_positions = positions_ahead - reserved_ahead
 
         all_reservations_filled = len(unreserved_positions) == 0
+
+        print(f"[DEBUG] Positions ahead: {len(positions_ahead)}, Reserved: {len(reserved_ahead)}, Unreserved: {len(unreserved_positions)}")
+        if len(unreserved_positions) > 0 and len(unreserved_positions) <= 20:
+            print(f"[DEBUG] Unreserved positions: {sorted(unreserved_positions)}")
+        print(f"[DEBUG] All reservations filled: {all_reservations_filled}")
 
         # Check if this position is reserved for a specific rapper
         if position in reserved_positions:
@@ -487,8 +504,10 @@ def generate_top_100():
                     all_rappers[rapper_name] = primary_rapper
                     reserve_album_positions(primary_rapper, position, set(reserved_positions.keys()))
                     # Add all reservations to the dict
+                    print(f"      [DEBUG] Adding {len(primary_rapper.reserved_positions)} reservations to dict")
                     for res_pos in primary_rapper.reserved_positions:
                         reserved_positions[res_pos] = primary_rapper
+                    print(f"      [DEBUG] Dict now has {len(reserved_positions)} total reservations")
 
             primary_rapper.albums.append(position)
             primary_rapper.album_dates[position] = release_date
@@ -560,8 +579,10 @@ def generate_top_100():
                                 all_rappers[member_name] = member
                                 reserve_album_positions(member, position, set(reserved_positions.keys()))
                                 # Add all reservations to the dict
+                                print(f"      [DEBUG] Adding {len(member.reserved_positions)} reservations to dict")
                                 for res_pos in member.reserved_positions:
                                     reserved_positions[res_pos] = member
+                                print(f"      [DEBUG] Dict now has {len(reserved_positions)} total reservations")
 
                     if member not in group_members:
                         group_members.append(member)
@@ -597,8 +618,10 @@ def generate_top_100():
                     all_rappers[rapper_name] = primary_rapper
                     reserve_album_positions(primary_rapper, position, set(reserved_positions.keys()))
                     # Add all reservations to the dict
+                    print(f"      [DEBUG] Adding {len(primary_rapper.reserved_positions)} reservations to dict")
                     for res_pos in primary_rapper.reserved_positions:
                         reserved_positions[res_pos] = primary_rapper
+                    print(f"      [DEBUG] Dict now has {len(reserved_positions)} total reservations")
 
             primary_rapper.albums.append(position)
             primary_rapper.album_dates[position] = release_date
