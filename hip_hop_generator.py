@@ -467,6 +467,9 @@ def generate_top_100():
             primary_rapper.albums.append(position)
             primary_rapper.album_dates[position] = release_date
 
+            # Remove this position from reserved_positions since we've processed it
+            del reserved_positions[position]
+
             album = Album(
                 position=position,
                 name=album_name,
