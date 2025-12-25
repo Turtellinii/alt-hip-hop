@@ -685,12 +685,13 @@ def print_chronological(albums):
     print("CHRONOLOGICAL ORDER")
     print("="*80 + "\n")
 
-    for album in sorted_albums:
+    for i, album in enumerate(sorted_albums, 1):
         if album.is_group:
-            member_names = ", ".join([m.name for m in album.group_members])
-            print(f"{album.release_date} - {album.name} by {member_names} (#{album.position})")
+            # Format: Rapper Name, Personality;; Rapper Name, Personality
+            artists = ";; ".join([f"{m.name}, {m.personality}" for m in album.group_members])
+            print(f"{i}. {album.name} ({artists}) [{album.release_date}] {{{album.position}}}")
         else:
-            print(f"{album.release_date} - {album.name} by {album.primary_rapper.name} (#{album.position})")
+            print(f"{i}. {album.name} ({album.primary_rapper.name}, {album.primary_rapper.personality}) [{album.release_date}] {{{album.position}}}")
 
 if __name__ == "__main__":
     random.seed()  # Use current time as seed for randomness
