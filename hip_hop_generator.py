@@ -1,0 +1,572 @@
+import random
+import sys
+import os
+
+# Import character generator function
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from importlib import import_module
+
+def get_personality():
+    """Generate a personality profile using character_generator.py"""
+    spec = import_module('character generator')
+    profile = spec.generate_mbti_profile()
+    # Remove the first character and space (gender indicator) and return the rest
+    parts = profile.split(' ', 1)
+    if len(parts) > 1:
+        return parts[1]
+    return profile
+
+# Album names and rapper names
+albums_and_rappers = [
+    ("To Pimp a Butterfly", "Kendrick Lamar"),
+    ("Madvillainy", "Madvillain"),
+    ("Good kid, m.a.a.d city", "Kendrick Lamar"),
+    ("Illmatic", "Nas"),
+    ("Enter the Wu-Tang", "Wu-Tang"),
+    ("My Beautiful Dark Twisted Fantasy", "Kanye West"),
+    ("The Money Store", "Death Grips"),
+    ("The College Dropout", "Kanye West"),
+    ("Atrocity Exhibition", "Danny Brown"),
+    ("The Low End Theory", ""),
+    ("MM.. FOOD", "MF DOOM"),
+    ("Exmilitary", "Death Grips"),
+    ("Endtroducing", "DJ Shadow"),
+    ("Donuts", "J Dilla"),
+    ("Aquemini", "Outkast"),
+    ("Late Registration", "Kanye West"),
+    ("Midnight Marauders", ""),
+    ("Liquid Swords", "GZA"),
+    ("Pinata", "Madlib"),
+    ("The Infamous", "Mobb Deep"),
+    ("ATLiens", "Outkast"),
+    ("Ready to Die", "The Notorious B.I.G."),
+    ("LP!", "JPEGMAFIA"),
+    ("We Got it From Here; Thank You 4 Your Service", ""),
+    ("Flower Boy", "Tyler the Creator"),
+    ("Jenny Death", "Death Grips"),
+    ("Black on Both Sides", "Mos Def"),
+    ("The Miseducation of Lauryn Hill", "Lauryn Hill"),
+    ("KIDS SEE GHOSTS", "KIDS SEE GHOSTS"),
+    ("Faces", "Mac Miller"),
+    ("Yeezus", "Kanye West"),
+    ("Sometimes I Might Be Introvert", "Little Simz"),
+    ("Bottomless Pit", "Death Grips"),
+    ("Vaudeville Villain", "Victor Vaughn"),
+    ("Some Rap Songs", "Earl Sweatshirt"),
+    ("Scaring the Hoes", "Danny Brown"),
+    ("Modal Soul", "Nujabes"),
+    ("The Forever Story", "JID"),
+    ("Moment of Truth", "Gang Starr"),
+    ("Things Fall Apart", "The Roots"),
+    ("The Life of Pablo", "Kanye West"),
+    ("By the Time I Get to Phoenix", "Injury Reserve"),
+    ("Paul's Boutique", ""),
+    ("It Takes a Nation of Millions to Hold Us Back", "Public Enemy"),
+    ("Mista Thug Isolation", "Lil Ugly Mane"),
+    ("Mystic Stylez", "Three-6 Mafia"),
+    ("Cheat Codes", "Danger Mouse"),
+    ("Stankonia", "Outkast"),
+    ("Crack Cloud$ OVer Arts Kitchen", "Black Kray"),
+    ("Only Built 4 Cuban Linx", "Raekwon"),
+    ("Aethiopes", "billy woods"),
+    ("Stress: The Extinction Agenda", "Organized Konfusion"),
+    ("The Gospel According To", "Mach-Hommy"),
+    ("Rodeo", "Travis Scott"),
+    ("Deltron 3030", "Deltron 3030"),
+    ("Black Star", "Mos Def"),
+    ("Operation: Doomsday", "MF DOOM"),
+    ("Be", "Common"),
+    ("Lifestylez ov da Poor & Dangerous", "Big L"),
+    ("XXX", "Danny Brown"),
+    ("Veteran", "JPEGMAFIA"),
+    ("All My Heroes Are Cornballs", "JPEGMAFIA"),
+    ("DAYTONA", "Pusha T"),
+    ("Reasonable Doubt", "Jay-Z"),
+    ("Hell Hath No Fury", "Clipse"),
+    ("6 Feet Deep", "Gravedigga"),
+    ("The Blueprint", "Jay-Z"),
+    ("Blowout Comb", "Digable Planets"),
+    ("Bizarre Ride II", "The Pharcyde"),
+    ("Buhloone Mindstate", "De La Soul"),
+    ("Supreme Clientele", "Ghostface Killah"),
+    ("Ridin Dirty", "UGK"),
+    ("Maps", "billy woods"),
+    ("Ironman", "Ghostface Killah"),
+    ("Graduation", "Kanye West"),
+    ("Gods Father", "Lil B"),
+    ("Hiding Places", "billy woods"),
+    ("The Cold Vein", "Cannibal Ox"),
+    ("Call Me If You Get Lost", "Tyler the Creator"),
+    ("Stakes Is High", "De La Soul"),
+    ("Ser Humano!!", "Tiro de Gracia"),
+    ("N*ggas on the Moon", "Death Grips"),
+    ("Doggystyle", "Snoop Dogg"),
+    ("Take Me to Your Leader", "King Geedorah"),
+    ("Game Theory", ""),
+    ("Run the Jewels 2", "Run the Jewels"),
+    ("TABOO", "Denzel Curry"),
+    ("Almighty So", "Chief Keef"),
+    ("Bandana", "Freddie Gibbs"),
+    ("The Chronic", "Dr. Dre"),
+    ("Metaphorical Music", "Nujabes"),
+    ("Melt My Eyez See Your Future", "Denzel Curry"),
+    ("Visions of Bodies Being Burned", "clipping."),
+    ("Veneno", "SpaceGhostPurrp"),
+    ("Fear of a Black Planet", "Public Enemy"),
+    ("3 Feet High and Rising", "De La Soul"),
+    ("The Minstrel Show", "Little Brother"),
+    ("GREY Area", "Little Simz"),
+    ("Muerte", "Canserbero"),
+    ("The Main Ingredient", "Pete Rock"),
+    ("Illadelph Halflife", "The Roots"),
+    ("Twerkin 10 Cellphone$", "Black Kray"),
+    ("Mr. Morale & The Big Steppers", "Kendrick Lamar"),
+    ("Labcabincalifornia", "The Pharcyde"),
+    ("From Filthy Tongue of Gods and Griots", "Dalek"),
+    ("The Black Album", "Jay-Z"),
+    ("Manger on McNichols", "Boldy James"),
+    ("Soul Food", "Goodie Mob"),
+    ("Third Side of Tape", "Lil Ugly Mane"),
+    ("People's Instinctive Travels and the Paths of Rhythm", ""),
+    ("Saturation II", "BROCKHAMPTON"),
+    ("Come - N - 2 - My World", "V.O.S."),
+    ("4eva Is a Mighty Long Time", "Big K.R.I.T."),
+    ("PART666%", "Yayayi"),
+    ("Ill Communication", "Beastie Boys"),
+    ("Vicki Leekx", "VICKI LEEKX"),
+    ("1999", "Joey Bada$$"),
+    ("Art Brut", "PRO8L3M"),
+    ("We Got It 4 Cheap Vol. 2", "Clipse"),
+    ("Saturation III", "BROCKHAMPTON"),
+    ("Dumpeister", "Mach-Hommy"),
+    ("Mecca and the Soul Brother", "Pete Rock"),
+    ("The Unseen", "Quasimoto"),
+    ("Below the Heavens", "Blu"),
+    ("Hell on Earth", "Mobb Deep"),
+    ("History Will Absolve Me", "billy woods"),
+    ("Die Lit", "Playboi Carti"),
+    ("Da Devil's Playground: Underground Solo", "Koopsta Knicca"),
+    ("The Diary", "Scarface"),
+    ("A Day Late and a Dollar Short", ""),
+    ("Monster", "Future"),
+    ("Reachin", "Digable Planets"),
+    ("Dreamcast Summer Songs", "The Rockwood Escape Plan"),
+    ("Absence", "Dalek"),
+    ("Goth Luv", "Black Kray"),
+    ("Hard to Earn", "Gang Starr"),
+    ("Ashes 2 Ashes, Dust 2 Dust", "Tommy Wright III"),
+    ("A Piece of Strange", "CunninLynguist"),
+    ("4, 5, 6", "Kool G Rap"),
+    ("I Don't Like Shit I Don't Go Outside", "Earl Sweatshirt"),
+    ("The Score", "Fugee"),
+    ("Live and Let Die", "Kool G Rap"),
+    ("93 Til' Infinity", "Souls of Mischief"),
+    ("Super Tight", "UGK"),
+    ("700 Dagreez", "Black Kray"),
+    ("Haitian Body Odor", "Mach-Hommy"),
+    ("Word…Life", "O.C."),
+    ("Center of Attention", "Pete Rock"),
+    ("Icedancer", "Bladee"),
+    ("De La Soul Is Dead", "De La Soul"),
+    ("Capital Punishment", "Big Pun"),
+    ("Runnin-n-Gunnin", "Tommy Wright III"),
+    ("Undun", ""),
+    ("Scrapyard", "Quadeca"),
+    ("Southernplayalisticadillacmuzik", "Outkast"),
+    ("LiveLoveA$AP", "A$AP Rocky"),
+    ("Bec", "Kunteynir"),
+    ("Return to the 36 Chambers", "Ol' Dirty Bastard"),
+    ("Fishscale", "Ghostface Killah"),
+    ("Muddy Waters", "Redman"),
+    ("Well Isn't This Awkward", "Charles Hamilton"),
+    ("Alfredo", "The Alchemist"),
+    ("Dare Iz a Darkside", "Redman"),
+    ("The Devil's Playground", "Da Koopsta Knicca"),
+    ("DAMN.", "Kendrick Lamar"),
+    ("No Love Deep Web", "Death Grips"),
+    ("Oblivion Access", "Lil Ugly Mane"),
+    ("On Top of the World", "8Ball"),
+    ("Death Certificate", "Ice Cube"),
+    ("The Juggaknots", "Juggaknot"),
+    ("Follow the Leader", "Rakim"),
+    ("Like Water for Chocolate", "Common"),
+    ("N*ggaz of Destruction", "N.O.D."),
+    ("Beloved! Paradise! Jazz!?", "McKinley Dixon"),
+    ("Fantastic Vol. 2", "Slum Village"),
+    ("We Buy Diabetic Test Strips", "Armand Hammer"),
+    ("It Was Written", "Nas"),
+    ("Fantastic Damage", "El-P"),
+    ("NO THANK YOU", "Little Simz"),
+    ("The Don Killuminati: The 7 Day Theory", "Makaveli"),
+    ("Me Against the World", "2Pac"),
+    ("RTJ4", "Run the Jewels"),
+    ("King's Disease III", "Nas"),
+    ("Da Drought 3", "Lil Wayne"),
+    ("Floss", "Injury Reserve"),
+    ("Telefone", "Noname"),
+    ("Vol. 9mm \"It's On\"", "Juicy J"),
+    ("Aerolineas Makiza", "Makiza"),
+    ("Dedication 2: Gangsta Grillz", "Lil Wayne"),
+    ("Adromicfms 4", "Yung Beef"),
+    ("Train of Thought", "Reflection Eternal"),
+    ("Smoked Out Loced Out", "Three-6 Mafia"),
+    ("Soundbombing II", "Rawkus"),
+    ("The Sun Rises in the East", "Jeru the Damaja"),
+    ("Part 3 Spring Mix '95", "Juicy J"),
+    ("Babylon by Gus: Volume I", "Black Alien"),
+    ("Resurrection", "Common Sense"),
+    ("A Prince Among Thieves", "Prince Paul"),
+    ("Swimming", "Mac Miller"),
+    ("Pizza and Codeine", "Chris Travis"),
+    ("King of da Playaz Ball", "Kingpin Skinny Pimp"),
+    ("Dah Shinin'", "Smif-n-Wessun"),
+    ("Reloaded", "Roc Marciano"),
+    ("The Marshall Mathers LP", "Eminem"),
+    ("There Existed an Addiction to Blood", "clipping."),
+    ("Uptown Saturday Night", ""),
+    ("On the Run", "Tommy Wright III"),
+    ("The Lost Tapes", "Nas"),
+    ("Back From the Dead 2", "Chief Keef"),
+    ("Yayayi", "Yayayi"),
+    ("Watch My Back", "LUCKI"),
+    ("Volume 16: 4 Da Summer of '94", "Mista DJ Paul"),
+    ("Labor Days", "Aesop Rock"),
+    ("Funcrusher Plus", "Company Flow"),
+    ("Mauvais Oeil", "Lunatic"),
+    ("Brass", "Moor Mother"),
+    ("Enta da Stage", "Black Moon"),
+    ("GTBSG", ""),
+    ("Breaking Atoms", "Main Source"),
+    ("Castelos & Ruinas", "BK"),
+    ("Romantizma", "Sagopa Kajmer"),
+    ("Steal This Album", "The Coup"),
+    ("Nocturnal", "Heltah Skeltah"),
+    ("Dump Gawd: Hommy Edition", "Mach-Hommy"),
+    ("Year of the Snitch", "Death Grips"),
+    ("Burning Desire", "MIKE"),
+    ("Paid In Full", "Rakim"),
+    ("Organized Konfusion", "Organized Konfusion"),
+    ("Daily Operation", "Gang Starr"),
+    ("Luh Hertz", "Mach-Hommy"),
+    ("Critical Beatdown", ""),
+    ("Life After Death", "The Notorious B.I.G."),
+    ("The Impossible Kid", "Aesop Rock"),
+    ("4:44", "Jay-Z"),
+    ("GUM", "Cities Aviv"),
+    ("L'Ecole du Micro D'Argent", "IAM"),
+    ("Quaranta", "Danny Brown"),
+    ("Memento Mori", "Ovsyankin"),
+    ("AmeriKKKa's Most Wanted", "Ice Cube"),
+    ("AmeriKKKan Korruption", "Capital Steez"),
+    ("Tana Talk 3", "Benny the Butcher"),
+    ("Whut?", "Redman"),
+    ("Internal Affairs", "Pharoahe Monch"),
+    ("$vlena Gxmez Trvphov$$E Tvpe", "Black Kray")
+]
+
+# Extract unique rapper names (excluding empty ones)
+rapper_names = list(set([name for _, name in albums_and_rappers if name]))
+album_names = [album for album, _ in albums_and_rappers]
+
+class Rapper:
+    def __init__(self, name, personality, first_album_position):
+        self.name = name
+        self.personality = personality
+        self.first_album_position = first_album_position
+        self.reserved_positions = []
+        self.albums = []  # List of album positions this rapper appears in
+
+class Group:
+    def __init__(self, members, first_album_position):
+        self.members = members  # List of Rapper objects
+        self.first_album_position = first_album_position
+        self.albums = []  # List of album positions
+
+class Album:
+    def __init__(self, position, name, primary_rapper, release_date, is_group, group_members=None, group=None):
+        self.position = position
+        self.name = name
+        self.primary_rapper = primary_rapper
+        self.release_date = release_date
+        self.is_group = is_group
+        self.group_members = group_members or []  # List of Rapper objects
+        self.group = group  # Group object if reusing existing group
+
+def determine_future_albums():
+    """Determine how many future albums a rapper should have reserved"""
+    roll = random.randint(1, 28)
+    if 1 <= roll <= 7:
+        return 0
+    elif 8 <= roll <= 13:
+        return 1
+    elif 14 <= roll <= 18:
+        return 2
+    elif 19 <= roll <= 22:
+        return 3
+    elif 23 <= roll <= 25:
+        return 4
+    elif 26 <= roll <= 27:
+        return 5
+    else:  # 28
+        return 6
+
+def reserve_album_positions(rapper, current_position):
+    """Reserve random positions from the remaining albums for this rapper"""
+    num_reservations = determine_future_albums()
+    if num_reservations > 0 and current_position > num_reservations:
+        # Available positions are from 1 to current_position - 1
+        available = list(range(1, current_position))
+        if len(available) >= num_reservations:
+            rapper.reserved_positions = random.sample(available, num_reservations)
+            rapper.reserved_positions.sort(reverse=True)
+
+def generate_random_date():
+    """Generate a random date between 1980 and 2024"""
+    year = random.randint(1980, 2024)
+    month = random.randint(1, 12)
+    # Simple day generation (not accounting for month-specific days)
+    day = random.randint(1, 28)
+    return f"{month}/{day}/{year}"
+
+def get_group_chance(total_albums, num_group_albums, current_chance):
+    """Determine the probability of next album being a group album"""
+    ratio = num_group_albums / total_albums if total_albums > 0 else 0
+
+    # Start with 1/4 chance
+    if current_chance == 0.25:
+        if ratio >= 1/6:
+            return 1/3
+    # If at 1/3 chance
+    elif current_chance == 1/3:
+        if ratio >= 1/4:
+            return 0.25
+        elif ratio <= 1/8:
+            return 0.5
+    # If at 1/2 chance
+    elif current_chance == 0.5:
+        if ratio >= 1/6:
+            return 1/3
+        elif ratio <= 1/10:
+            return 1.0
+    # If at 1/1 chance (100%)
+    elif current_chance == 1.0:
+        if ratio >= 1/8:
+            return 0.5
+
+    return current_chance
+
+def find_rappers_within_timeframe(all_rappers, current_date, years_range=15):
+    """Find rappers with albums within X years of current date"""
+    import datetime
+    try:
+        current_month, current_day, current_year = map(int, current_date.split('/'))
+        current_dt = datetime.datetime(current_year, current_month, current_day)
+
+        valid_rappers = []
+        for rapper in all_rappers:
+            for album_pos in rapper.albums:
+                # Find the album with this position
+                # We'll need to pass this information differently
+                pass
+        return valid_rappers
+    except:
+        return []
+
+def generate_top_100():
+    """Generate the top 100 albums"""
+    albums = []
+    all_rappers = {}  # Dictionary: rapper_name -> Rapper object
+    all_groups = []  # List of Group objects
+    reserved_positions = {}  # position -> Rapper object (for reservations)
+
+    group_chance = 0.25  # Start with 1/4 chance
+    num_group_albums = 0
+
+    # Generate albums from position 100 down to 1
+    for position in range(100, 0, -1):
+        print(f"Generating album #{position}...")
+
+        # Check if this position is reserved for a specific rapper
+        if position in reserved_positions:
+            primary_rapper = reserved_positions[position]
+            is_group = False
+        else:
+            # Determine if this is a group album
+            total_albums_so_far = 100 - position
+            group_chance = get_group_chance(total_albums_so_far, num_group_albums, group_chance)
+            is_group = random.random() < group_chance
+
+        # Select album name
+        album_name = random.choice(album_names)
+        release_date = generate_random_date()
+
+        if position in reserved_positions:
+            # This is a reserved solo album
+            primary_rapper = reserved_positions[position]
+            primary_rapper.albums.append(position)
+
+            album = Album(
+                position=position,
+                name=album_name,
+                primary_rapper=primary_rapper,
+                release_date=release_date,
+                is_group=False
+            )
+        elif is_group:
+            num_group_albums += 1
+
+            # Generate or select primary rapper
+            rapper_name = random.choice(rapper_names)
+            if rapper_name in all_rappers:
+                primary_rapper = all_rappers[rapper_name]
+            else:
+                personality = get_personality()
+                primary_rapper = Rapper(rapper_name, personality, position)
+                all_rappers[rapper_name] = primary_rapper
+                reserve_album_positions(primary_rapper, position)
+                for res_pos in primary_rapper.reserved_positions:
+                    reserved_positions[res_pos] = primary_rapper
+
+            primary_rapper.albums.append(position)
+
+            # Check if primary rapper has been in a group before
+            existing_group = None
+            for group in all_groups:
+                if primary_rapper in group.members:
+                    existing_group = group
+                    break
+
+            # 50% chance to reuse existing group if available
+            if existing_group and random.random() < 0.5:
+                group_members = existing_group.members
+                existing_group.albums.append(position)
+                album = Album(
+                    position=position,
+                    name=album_name,
+                    primary_rapper=primary_rapper,
+                    release_date=release_date,
+                    is_group=True,
+                    group_members=group_members,
+                    group=existing_group
+                )
+            else:
+                # Create new group
+                num_members = random.randint(2, 5)
+                group_members = [primary_rapper]
+
+                # Generate other members
+                for _ in range(num_members - 1):
+                    # 50% chance new rapper, 50% existing rapper
+                    if random.random() < 0.5 and len(all_rappers) > 0:
+                        # Try to find existing rapper within 15 years
+                        # For simplicity, just pick a random existing rapper
+                        member_name = random.choice(list(all_rappers.keys()))
+                        member = all_rappers[member_name]
+                    else:
+                        # New rapper
+                        member_name = random.choice(rapper_names)
+                        while member_name in [m.name for m in group_members]:
+                            member_name = random.choice(rapper_names)
+
+                        if member_name in all_rappers:
+                            member = all_rappers[member_name]
+                        else:
+                            personality = get_personality()
+                            member = Rapper(member_name, personality, position)
+                            all_rappers[member_name] = member
+                            reserve_album_positions(member, position)
+                            for res_pos in member.reserved_positions:
+                                if res_pos not in reserved_positions:
+                                    reserved_positions[res_pos] = member
+
+                    if member not in group_members:
+                        group_members.append(member)
+                        member.albums.append(position)
+
+                new_group = Group(group_members, position)
+                new_group.albums.append(position)
+                all_groups.append(new_group)
+
+                album = Album(
+                    position=position,
+                    name=album_name,
+                    primary_rapper=primary_rapper,
+                    release_date=release_date,
+                    is_group=True,
+                    group_members=group_members,
+                    group=new_group
+                )
+        else:
+            # Solo album
+            rapper_name = random.choice(rapper_names)
+            if rapper_name in all_rappers:
+                primary_rapper = all_rappers[rapper_name]
+            else:
+                personality = get_personality()
+                primary_rapper = Rapper(rapper_name, personality, position)
+                all_rappers[rapper_name] = primary_rapper
+                reserve_album_positions(primary_rapper, position)
+                for res_pos in primary_rapper.reserved_positions:
+                    if res_pos not in reserved_positions:
+                        reserved_positions[res_pos] = primary_rapper
+
+            primary_rapper.albums.append(position)
+
+            album = Album(
+                position=position,
+                name=album_name,
+                primary_rapper=primary_rapper,
+                release_date=release_date,
+                is_group=False
+            )
+
+        albums.append(album)
+
+    return albums
+
+def print_top_100(albums):
+    """Print the top 100 list"""
+    print("\n" + "="*80)
+    print("ALTERNATE HIP HOP HISTORY - TOP 100 ALBUMS")
+    print("="*80 + "\n")
+
+    for album in albums:
+        print(f"#{album.position} - {album.name}")
+        if album.is_group:
+            member_names = ", ".join([m.name for m in album.group_members])
+            print(f"   Artists: {member_names}")
+            for member in album.group_members:
+                print(f"      - {member.name}: {member.personality}")
+        else:
+            print(f"   Artist: {album.primary_rapper.name}")
+            print(f"      Personality: {album.primary_rapper.personality}")
+        print(f"   Release Date: {album.release_date}")
+        print()
+
+def print_chronological(albums):
+    """Print albums in chronological order"""
+    # Sort by release date
+    import datetime
+
+    def parse_date(date_str):
+        month, day, year = map(int, date_str.split('/'))
+        return datetime.datetime(year, month, day)
+
+    sorted_albums = sorted(albums, key=lambda x: parse_date(x.release_date))
+
+    print("\n" + "="*80)
+    print("CHRONOLOGICAL ORDER")
+    print("="*80 + "\n")
+
+    for album in sorted_albums:
+        if album.is_group:
+            member_names = ", ".join([m.name for m in album.group_members])
+            print(f"{album.release_date} - {album.name} by {member_names} (#{album.position})")
+        else:
+            print(f"{album.release_date} - {album.name} by {album.primary_rapper.name} (#{album.position})")
+
+if __name__ == "__main__":
+    random.seed()  # Use current time as seed for randomness
+    albums = generate_top_100()
+    print_top_100(albums)
+    print_chronological(albums)
