@@ -426,8 +426,19 @@ def generate_top_100():
     for position in range(100, 0, -1):
         print(f"Generating album #{position}...")
 
-        # Check if all reservations have been filled (no more reserved positions ahead)
-        all_reservations_filled = len(reserved_positions) == 0 or min(reserved_positions.keys()) > position
+        # Check if ALL positions ahead are reserved (100% coverage)
+        # Positions ahead of us: 1 to position-1
+        positions_ahead = set(range(1, position))
+        reserved_ahead = set(reserved_positions.keys())
+        unreserved_positions = positions_ahead - reserved_ahead
+
+        all_reservations_filled = len(unreserved_positions) == 0
+
+        # Debug output
+        if unreserved_positions and len(unreserved_positions) <= 10:
+            print(f"  ⚠ Unreserved positions: {sorted(unreserved_positions, reverse=True)}")
+        elif unreserved_positions:
+            print(f"  ⚠ {len(unreserved_positions)} unreserved positions remaining")
 
         # Check if this position is reserved for a specific rapper
         if position in reserved_positions:
@@ -487,8 +498,13 @@ def generate_top_100():
                     primary_rapper = Rapper(rapper_name, personality, position)
                     all_rappers[rapper_name] = primary_rapper
                     reserve_album_positions(primary_rapper, position)
+                    # Only add reservations that aren't already taken
+                    valid_reservations = []
                     for res_pos in primary_rapper.reserved_positions:
-                        reserved_positions[res_pos] = primary_rapper
+                        if res_pos not in reserved_positions:
+                            reserved_positions[res_pos] = primary_rapper
+                            valid_reservations.append(res_pos)
+                    primary_rapper.reserved_positions = valid_reservations
 
             primary_rapper.albums.append(position)
             primary_rapper.album_dates[position] = release_date
@@ -596,9 +612,13 @@ def generate_top_100():
                     primary_rapper = Rapper(rapper_name, personality, position)
                     all_rappers[rapper_name] = primary_rapper
                     reserve_album_positions(primary_rapper, position)
+                    # Only add reservations that aren't already taken
+                    valid_reservations = []
                     for res_pos in primary_rapper.reserved_positions:
                         if res_pos not in reserved_positions:
                             reserved_positions[res_pos] = primary_rapper
+                            valid_reservations.append(res_pos)
+                    primary_rapper.reserved_positions = valid_reservations
 
             primary_rapper.albums.append(position)
             primary_rapper.album_dates[position] = release_date
