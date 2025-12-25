@@ -396,20 +396,23 @@ def get_group_chance(total_albums, num_group_albums, current_chance):
 
     return current_chance
 
-def find_rappers_within_timeframe(all_rappers, current_date, years_range=15):
+def find_rappers_within_timeframe(all_rappers_dict, current_date, years_range=15):
     """Find rappers with albums within X years of current date"""
-    import datetime
     try:
         current_month, current_day, current_year = map(int, current_date.split('/'))
-        current_dt = datetime.datetime(current_year, current_month, current_day)
 
-        valid_rappers = []
-        for rapper in all_rappers:
-            for album_pos in rapper.albums:
-                # Find the album with this position
-                # We'll need to pass this information differently
-                pass
-        return valid_rappers
+        valid_rapper_names = []
+        for rapper_name, rapper in all_rappers_dict.items():
+            # Check if any of this rapper's albums are within the time range
+            for date_str in rapper.album_dates.values():
+                parts = date_str.split('/')
+                if len(parts) == 3:
+                    year = int(parts[2])
+                    if abs(year - current_year) <= years_range:
+                        valid_rapper_names.append(rapper_name)
+                        break  # Found at least one album in range
+
+        return valid_rapper_names
     except:
         return []
 
@@ -450,8 +453,16 @@ def generate_top_100():
         if position in reserved_positions:
             primary_rapper = reserved_positions[position]
             is_group = False
+            # Generate release date for reserved album based on rapper's average
+            avg_year = calculate_rapper_average_year(primary_rapper)
+            if avg_year:
+                release_date = generate_random_date(avg_year - 10, avg_year + 10)
+            else:
+                release_date = generate_random_date()
         else:
-            # Determine if this is a group album
+            # Generate release date FIRST so we can filter group members by time
+            release_date = generate_random_date()
+            # Then determine if this is a group album
             total_albums_so_far = 100 - position
             group_chance = get_group_chance(total_albums_so_far, num_group_albums, group_chance)
             is_group = random.random() < group_chance
@@ -464,18 +475,6 @@ def generate_top_100():
         else:
             # Fallback if we somehow run out (shouldn't happen with 274 names for 100 albums)
             album_name = random.choice(album_names)
-
-        # Generate release date (special handling for reserved positions)
-        if position in reserved_positions:
-            # This is a reserved album - use ±10 years from average
-            primary_rapper = reserved_positions[position]
-            avg_year = calculate_rapper_average_year(primary_rapper)
-            if avg_year:
-                release_date = generate_random_date(avg_year - 10, avg_year + 10)
-            else:
-                release_date = generate_random_date()
-        else:
-            release_date = generate_random_date()
 
         if position in reserved_positions:
             # This is a reserved solo album
@@ -552,26 +551,57 @@ def generate_top_100():
                 # Generate other members
                 for _ in range(num_members - 1):
                     if all_reservations_filled:
-                        # Can only use existing rappers
-                        if len(all_rappers) > 1:  # Make sure we have at least one other rapper besides primary
-                            available_rappers = [name for name in all_rappers.keys() if all_rappers[name] not in group_members]
+                        # Can only use existing rappers - filter by 15 year timeframe
+                        if len(all_rappers) > 1:
+                            # Find rappers within 15 years of this album's release date
+                            valid_rappers = find_rappers_within_timeframe(all_rappers, release_date, 15)
+                            # Exclude rappers already in this group
+                            available_rappers = [name for name in valid_rappers if all_rappers[name] not in group_members]
+
                             if available_rappers:
                                 member_name = random.choice(available_rappers)
                                 member = all_rappers[member_name]
                             else:
-                                # If no available rappers, just pick any existing rapper
-                                member_name = random.choice(list(all_rappers.keys()))
-                                member = all_rappers[member_name]
+                                # If no rappers in timeframe, just pick any existing rapper not in group
+                                available_rappers = [name for name in all_rappers.keys() if all_rappers[name] not in group_members]
+                                if available_rappers:
+                                    member_name = random.choice(available_rappers)
+                                    member = all_rappers[member_name]
+                                else:
+                                    # If no available rappers, skip this member
+                                    continue
                         else:
                             # Not enough existing rappers, skip this member
                             continue
                     else:
                         # 50% chance new rapper, 50% existing rapper
                         if random.random() < 0.5 and len(all_rappers) > 0:
-                            # Try to find existing rapper within 15 years
-                            # For simplicity, just pick a random existing rapper
-                            member_name = random.choice(list(all_rappers.keys()))
-                            member = all_rappers[member_name]
+                            # Find existing rappers within 15 years of this album's release date
+                            valid_rappers = find_rappers_within_timeframe(all_rappers, release_date, 15)
+                            # Exclude rappers already in this group
+                            valid_rappers = [name for name in valid_rappers if all_rappers[name] not in group_members]
+
+                            if valid_rappers:
+                                member_name = random.choice(valid_rappers)
+                                member = all_rappers[member_name]
+                            else:
+                                # No valid rappers in timeframe, create new one
+                                member_name = random.choice(rapper_names)
+                                while member_name in [m.name for m in group_members]:
+                                    member_name = random.choice(rapper_names)
+
+                                if member_name in all_rappers:
+                                    member = all_rappers[member_name]
+                                else:
+                                    personality = get_personality()
+                                    member = Rapper(member_name, personality, position)
+                                    all_rappers[member_name] = member
+                                    reserve_album_positions(member, position, set(reserved_positions.keys()))
+                                    # Add all reservations to the dict
+                                    print(f"      [DEBUG] Adding {len(member.reserved_positions)} reservations to dict")
+                                    for res_pos in member.reserved_positions:
+                                        reserved_positions[res_pos] = member
+                                    print(f"      [DEBUG] Dict now has {len(reserved_positions)} total reservations")
                         else:
                             # New rapper
                             member_name = random.choice(rapper_names)
