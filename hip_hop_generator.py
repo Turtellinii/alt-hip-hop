@@ -321,16 +321,15 @@ def determine_future_albums():
     else:  # 28
         return 6
 
-def reserve_album_positions(rapper, current_position):
+def reserve_album_positions(rapper, current_position, already_reserved):
     """Reserve random positions from the remaining albums for this rapper"""
     num_reservations = determine_future_albums()
     if num_reservations > 0 and current_position > num_reservations:
-        # Available positions are from 1 to current_position - 1
-        available = list(range(1, current_position))
+        # Only include positions that aren't already reserved
+        available = [p for p in range(1, current_position) if p not in already_reserved]
         if len(available) >= num_reservations:
             rapper.reserved_positions = random.sample(available, num_reservations)
             rapper.reserved_positions.sort(reverse=True)
-            # Don't print here - caller will print after validation
 
 def generate_random_date(min_year=1985, max_year=2025):
     """Generate a random date between min_year and max_year"""
@@ -408,6 +407,10 @@ def find_rappers_within_timeframe(all_rappers, current_date, years_range=15):
 
 def generate_top_100():
     """Generate the top 100 albums"""
+    print("\n" + "="*80)
+    print("ALTERNATE HIP HOP HISTORY - TOP 100 ALBUMS")
+    print("="*80 + "\n")
+
     albums = []
     all_rappers = {}  # Dictionary: rapper_name -> Rapper object
     all_groups = []  # List of Group objects
@@ -418,8 +421,6 @@ def generate_top_100():
 
     # Generate albums from position 100 down to 1
     for position in range(100, 0, -1):
-        print(f"Generating album #{position}...")
-
         # Check if ALL positions ahead are reserved (100% coverage)
         # Positions ahead of us: 1 to position-1
         positions_ahead = set(range(1, position))
@@ -427,12 +428,6 @@ def generate_top_100():
         unreserved_positions = positions_ahead - reserved_ahead
 
         all_reservations_filled = len(unreserved_positions) == 0
-
-        # Debug output
-        if unreserved_positions and len(unreserved_positions) <= 10:
-            print(f"  ⚠ Unreserved positions: {sorted(unreserved_positions, reverse=True)}")
-        elif unreserved_positions:
-            print(f"  ⚠ {len(unreserved_positions)} unreserved positions remaining")
 
         # Check if this position is reserved for a specific rapper
         if position in reserved_positions:
@@ -491,19 +486,10 @@ def generate_top_100():
                     personality = get_personality()
                     primary_rapper = Rapper(rapper_name, personality, position)
                     all_rappers[rapper_name] = primary_rapper
-                    reserve_album_positions(primary_rapper, position)
-                    # Only add reservations that aren't already taken
-                    valid_reservations = []
+                    reserve_album_positions(primary_rapper, position, reserved_positions.keys())
+                    # Add all reservations to the dict
                     for res_pos in primary_rapper.reserved_positions:
-                        if res_pos not in reserved_positions:
-                            reserved_positions[res_pos] = primary_rapper
-                            valid_reservations.append(res_pos)
-                    primary_rapper.reserved_positions = valid_reservations
-                    # Print AFTER validation
-                    if valid_reservations:
-                        print(f"    ✓ NEW RAPPER '{primary_rapper.name}' at #{position}, reserved: {valid_reservations}")
-                    else:
-                        print(f"    ✓ NEW RAPPER '{primary_rapper.name}' at #{position}, no reservations")
+                        reserved_positions[res_pos] = primary_rapper
 
             primary_rapper.albums.append(position)
             primary_rapper.album_dates[position] = release_date
@@ -573,18 +559,10 @@ def generate_top_100():
                                 personality = get_personality()
                                 member = Rapper(member_name, personality, position)
                                 all_rappers[member_name] = member
-                                reserve_album_positions(member, position)
-                                valid_reservations = []
+                                reserve_album_positions(member, position, reserved_positions.keys())
+                                # Add all reservations to the dict
                                 for res_pos in member.reserved_positions:
-                                    if res_pos not in reserved_positions:
-                                        reserved_positions[res_pos] = member
-                                        valid_reservations.append(res_pos)
-                                member.reserved_positions = valid_reservations
-                                # Print AFTER validation
-                                if valid_reservations:
-                                    print(f"    ✓ NEW RAPPER '{member.name}' at #{position}, reserved: {valid_reservations}")
-                                else:
-                                    print(f"    ✓ NEW RAPPER '{member.name}' at #{position}, no reservations")
+                                    reserved_positions[res_pos] = member
 
                     if member not in group_members:
                         group_members.append(member)
@@ -618,19 +596,10 @@ def generate_top_100():
                     personality = get_personality()
                     primary_rapper = Rapper(rapper_name, personality, position)
                     all_rappers[rapper_name] = primary_rapper
-                    reserve_album_positions(primary_rapper, position)
-                    # Only add reservations that aren't already taken
-                    valid_reservations = []
+                    reserve_album_positions(primary_rapper, position, reserved_positions.keys())
+                    # Add all reservations to the dict
                     for res_pos in primary_rapper.reserved_positions:
-                        if res_pos not in reserved_positions:
-                            reserved_positions[res_pos] = primary_rapper
-                            valid_reservations.append(res_pos)
-                    primary_rapper.reserved_positions = valid_reservations
-                    # Print AFTER validation
-                    if valid_reservations:
-                        print(f"    ✓ NEW RAPPER '{primary_rapper.name}' at #{position}, reserved: {valid_reservations}")
-                    else:
-                        print(f"    ✓ NEW RAPPER '{primary_rapper.name}' at #{position}, no reservations")
+                        reserved_positions[res_pos] = primary_rapper
 
             primary_rapper.albums.append(position)
             primary_rapper.album_dates[position] = release_date
@@ -645,21 +614,18 @@ def generate_top_100():
 
         albums.append(album)
 
-        # Print album details immediately
-        print(f"\n  Album: {album.name}")
+        # Print album in final format
+        print(f"#{album.position} - {album.name}")
         if album.is_group:
             member_names = ", ".join([m.name for m in album.group_members])
-            print(f"  Artists: {member_names}")
+            print(f"   Artists: {member_names}")
+            for member in album.group_members:
+                print(f"      - {member.name}: {member.personality}")
         else:
-            print(f"  Artist: {album.primary_rapper.name}")
-        print(f"  Date: {album.release_date}")
-
-        # Show remaining reservations after this album
-        if reserved_positions:
-            reserved_list = sorted(reserved_positions.keys(), reverse=True)
-            print(f"  → Remaining reservations ({len(reserved_list)}): {reserved_list}")
-        else:
-            print(f"  → No more reservations remaining")
+            print(f"   Artist: {album.primary_rapper.name}")
+            print(f"      Personality: {album.primary_rapper.personality}")
+        print(f"   Release Date: {album.release_date}")
+        print()
 
     return albums
 
@@ -707,5 +673,4 @@ def print_chronological(albums):
 if __name__ == "__main__":
     random.seed()  # Use current time as seed for randomness
     albums = generate_top_100()
-    print_top_100(albums)
     print_chronological(albums)

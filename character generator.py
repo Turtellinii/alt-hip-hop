@@ -172,7 +172,8 @@ def generate_mbti_profile():
     tritype_formatted = " ".join(tritype)
     return f"{gender} {mbti} {main_enneagram} {instinct_primary}/{instinct_secondary} {tritype_formatted}"
 
-# Generate and print profiles
-profiles = [generate_mbti_profile() for _ in range(1)]
-for profile in profiles:
-    print(profile)
+if __name__ == "__main__":
+    # Generate and print profiles
+    profiles = [generate_mbti_profile() for _ in range(1)]
+    for profile in profiles:
+        print(profile)
