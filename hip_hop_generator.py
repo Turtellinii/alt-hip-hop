@@ -9,12 +9,22 @@ from importlib import import_module
 def get_personality():
     """Generate a personality profile using character_generator.py"""
     spec = import_module('character generator')
-    profile = spec.generate_mbti_profile()
-    # Remove the first character and space (gender indicator) and return the rest
-    parts = profile.split(' ', 1)
-    if len(parts) > 1:
-        return parts[1]
-    return profile
+    excluded_types = ['ISFJ', 'ESFJ', 'ISTJ', 'ESTJ']
+
+    # Keep generating until we get a valid personality type
+    while True:
+        profile = spec.generate_mbti_profile()
+        # Remove the first character and space (gender indicator) and return the rest
+        parts = profile.split(' ', 1)
+        if len(parts) > 1:
+            personality = parts[1]
+        else:
+            personality = profile
+
+        # Check if the MBTI type is excluded
+        mbti_type = personality.split()[0] if personality else ""
+        if mbti_type not in excluded_types:
+            return personality
 
 # Album names and rapper names
 albums_and_rappers = [
@@ -132,7 +142,7 @@ albums_and_rappers = [
     ("Come - N - 2 - My World", "V.O.S."),
     ("4eva Is a Mighty Long Time", "Big K.R.I.T."),
     ("PART666%", "Yayayi"),
-    ("Ill Communication", "Beastie Boys"),
+    ("Ill Communication", ""),
     ("Vicki Leekx", "VICKI LEEKX"),
     ("1999", "Joey Bada$$"),
     ("Art Brut", "PRO8L3M"),
@@ -386,6 +396,9 @@ def generate_top_100():
     for position in range(100, 0, -1):
         print(f"Generating album #{position}...")
 
+        # Check if all reservations have been filled (no more reserved positions ahead)
+        all_reservations_filled = len(reserved_positions) == 0 or min(reserved_positions.keys()) > position
+
         # Check if this position is reserved for a specific rapper
         if position in reserved_positions:
             primary_rapper = reserved_positions[position]
@@ -416,16 +429,21 @@ def generate_top_100():
             num_group_albums += 1
 
             # Generate or select primary rapper
-            rapper_name = random.choice(rapper_names)
-            if rapper_name in all_rappers:
+            if all_reservations_filled and len(all_rappers) > 0:
+                # Can only use existing rappers
+                rapper_name = random.choice(list(all_rappers.keys()))
                 primary_rapper = all_rappers[rapper_name]
             else:
-                personality = get_personality()
-                primary_rapper = Rapper(rapper_name, personality, position)
-                all_rappers[rapper_name] = primary_rapper
-                reserve_album_positions(primary_rapper, position)
-                for res_pos in primary_rapper.reserved_positions:
-                    reserved_positions[res_pos] = primary_rapper
+                rapper_name = random.choice(rapper_names)
+                if rapper_name in all_rappers:
+                    primary_rapper = all_rappers[rapper_name]
+                else:
+                    personality = get_personality()
+                    primary_rapper = Rapper(rapper_name, personality, position)
+                    all_rappers[rapper_name] = primary_rapper
+                    reserve_album_positions(primary_rapper, position)
+                    for res_pos in primary_rapper.reserved_positions:
+                        reserved_positions[res_pos] = primary_rapper
 
             primary_rapper.albums.append(position)
 
@@ -456,28 +474,43 @@ def generate_top_100():
 
                 # Generate other members
                 for _ in range(num_members - 1):
-                    # 50% chance new rapper, 50% existing rapper
-                    if random.random() < 0.5 and len(all_rappers) > 0:
-                        # Try to find existing rapper within 15 years
-                        # For simplicity, just pick a random existing rapper
-                        member_name = random.choice(list(all_rappers.keys()))
-                        member = all_rappers[member_name]
+                    if all_reservations_filled:
+                        # Can only use existing rappers
+                        if len(all_rappers) > 1:  # Make sure we have at least one other rapper besides primary
+                            available_rappers = [name for name in all_rappers.keys() if all_rappers[name] not in group_members]
+                            if available_rappers:
+                                member_name = random.choice(available_rappers)
+                                member = all_rappers[member_name]
+                            else:
+                                # If no available rappers, just pick any existing rapper
+                                member_name = random.choice(list(all_rappers.keys()))
+                                member = all_rappers[member_name]
+                        else:
+                            # Not enough existing rappers, skip this member
+                            continue
                     else:
-                        # New rapper
-                        member_name = random.choice(rapper_names)
-                        while member_name in [m.name for m in group_members]:
-                            member_name = random.choice(rapper_names)
-
-                        if member_name in all_rappers:
+                        # 50% chance new rapper, 50% existing rapper
+                        if random.random() < 0.5 and len(all_rappers) > 0:
+                            # Try to find existing rapper within 15 years
+                            # For simplicity, just pick a random existing rapper
+                            member_name = random.choice(list(all_rappers.keys()))
                             member = all_rappers[member_name]
                         else:
-                            personality = get_personality()
-                            member = Rapper(member_name, personality, position)
-                            all_rappers[member_name] = member
-                            reserve_album_positions(member, position)
-                            for res_pos in member.reserved_positions:
-                                if res_pos not in reserved_positions:
-                                    reserved_positions[res_pos] = member
+                            # New rapper
+                            member_name = random.choice(rapper_names)
+                            while member_name in [m.name for m in group_members]:
+                                member_name = random.choice(rapper_names)
+
+                            if member_name in all_rappers:
+                                member = all_rappers[member_name]
+                            else:
+                                personality = get_personality()
+                                member = Rapper(member_name, personality, position)
+                                all_rappers[member_name] = member
+                                reserve_album_positions(member, position)
+                                for res_pos in member.reserved_positions:
+                                    if res_pos not in reserved_positions:
+                                        reserved_positions[res_pos] = member
 
                     if member not in group_members:
                         group_members.append(member)
@@ -498,17 +531,22 @@ def generate_top_100():
                 )
         else:
             # Solo album
-            rapper_name = random.choice(rapper_names)
-            if rapper_name in all_rappers:
+            if all_reservations_filled and len(all_rappers) > 0:
+                # Can only use existing rappers
+                rapper_name = random.choice(list(all_rappers.keys()))
                 primary_rapper = all_rappers[rapper_name]
             else:
-                personality = get_personality()
-                primary_rapper = Rapper(rapper_name, personality, position)
-                all_rappers[rapper_name] = primary_rapper
-                reserve_album_positions(primary_rapper, position)
-                for res_pos in primary_rapper.reserved_positions:
-                    if res_pos not in reserved_positions:
-                        reserved_positions[res_pos] = primary_rapper
+                rapper_name = random.choice(rapper_names)
+                if rapper_name in all_rappers:
+                    primary_rapper = all_rappers[rapper_name]
+                else:
+                    personality = get_personality()
+                    primary_rapper = Rapper(rapper_name, personality, position)
+                    all_rappers[rapper_name] = primary_rapper
+                    reserve_album_positions(primary_rapper, position)
+                    for res_pos in primary_rapper.reserved_positions:
+                        if res_pos not in reserved_positions:
+                            reserved_positions[res_pos] = primary_rapper
 
             primary_rapper.albums.append(position)
 
