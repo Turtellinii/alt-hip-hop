@@ -38,7 +38,7 @@ python3 hip_hop_generator.py > my_alternate_history.txt
 
 Each album (from position 100 down to 1) gets:
 - Random album name from the list
-- Random release date (1980-2024)
+- Random release date (1985-2025)
 - Solo or group determination based on probability rules
 - Primary rapper with personality profile
 

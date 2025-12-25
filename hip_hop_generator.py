@@ -321,8 +321,8 @@ def reserve_album_positions(rapper, current_position):
             rapper.reserved_positions.sort(reverse=True)
 
 def generate_random_date():
-    """Generate a random date between 1980 and 2024"""
-    year = random.randint(1980, 2024)
+    """Generate a random date between 1985 and 2025"""
+    year = random.randint(1985, 2025)
     month = random.randint(1, 12)
     # Simple day generation (not accounting for month-specific days)
     day = random.randint(1, 28)
