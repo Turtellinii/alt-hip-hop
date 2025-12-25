@@ -285,6 +285,7 @@ class Rapper:
         self.first_album_position = first_album_position
         self.reserved_positions = []
         self.albums = []  # List of album positions this rapper appears in
+        self.album_dates = {}  # Dictionary: position -> release_date string
 
 class Group:
     def __init__(self, members, first_album_position):
@@ -330,13 +331,35 @@ def reserve_album_positions(rapper, current_position):
             rapper.reserved_positions = random.sample(available, num_reservations)
             rapper.reserved_positions.sort(reverse=True)
 
-def generate_random_date():
-    """Generate a random date between 1985 and 2025"""
-    year = random.randint(1985, 2025)
+def generate_random_date(min_year=1985, max_year=2025):
+    """Generate a random date between min_year and max_year"""
+    # Ensure year range is valid
+    min_year = max(1985, min_year)
+    max_year = min(2025, max_year)
+    if min_year > max_year:
+        min_year, max_year = max_year, min_year
+
+    year = random.randint(min_year, max_year)
     month = random.randint(1, 12)
     # Simple day generation (not accounting for month-specific days)
     day = random.randint(1, 28)
     return f"{month}/{day}/{year}"
+
+def calculate_rapper_average_year(rapper):
+    """Calculate the average release year for a rapper's existing albums"""
+    if not rapper.album_dates:
+        return None
+
+    years = []
+    for date_str in rapper.album_dates.values():
+        # Parse date string "M/D/YYYY"
+        parts = date_str.split('/')
+        if len(parts) == 3:
+            years.append(int(parts[2]))
+
+    if years:
+        return sum(years) // len(years)
+    return None
 
 def get_group_chance(total_albums, num_group_albums, current_chance):
     """Determine the probability of next album being a group album"""
@@ -411,12 +434,24 @@ def generate_top_100():
 
         # Select album name
         album_name = random.choice(album_names)
-        release_date = generate_random_date()
+
+        # Generate release date (special handling for reserved positions)
+        if position in reserved_positions:
+            # This is a reserved album - use ±15 years from average
+            primary_rapper = reserved_positions[position]
+            avg_year = calculate_rapper_average_year(primary_rapper)
+            if avg_year:
+                release_date = generate_random_date(avg_year - 15, avg_year + 15)
+            else:
+                release_date = generate_random_date()
+        else:
+            release_date = generate_random_date()
 
         if position in reserved_positions:
             # This is a reserved solo album
             primary_rapper = reserved_positions[position]
             primary_rapper.albums.append(position)
+            primary_rapper.album_dates[position] = release_date
 
             album = Album(
                 position=position,
@@ -446,6 +481,7 @@ def generate_top_100():
                         reserved_positions[res_pos] = primary_rapper
 
             primary_rapper.albums.append(position)
+            primary_rapper.album_dates[position] = release_date
 
             # Check if primary rapper has been in a group before
             existing_group = None
@@ -458,6 +494,11 @@ def generate_top_100():
             if existing_group and random.random() < 0.5:
                 group_members = existing_group.members
                 existing_group.albums.append(position)
+                # Track this album date for all group members
+                for member in group_members:
+                    if position not in member.albums:
+                        member.albums.append(position)
+                    member.album_dates[position] = release_date
                 album = Album(
                     position=position,
                     name=album_name,
@@ -515,6 +556,7 @@ def generate_top_100():
                     if member not in group_members:
                         group_members.append(member)
                         member.albums.append(position)
+                        member.album_dates[position] = release_date
 
                 new_group = Group(group_members, position)
                 new_group.albums.append(position)
@@ -549,6 +591,7 @@ def generate_top_100():
                             reserved_positions[res_pos] = primary_rapper
 
             primary_rapper.albums.append(position)
+            primary_rapper.album_dates[position] = release_date
 
             album = Album(
                 position=position,

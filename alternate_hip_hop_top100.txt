@@ -1,5 +1,5 @@
 Generating album #100...
-M ISTJ 6w5 sx/so 6w5 1w9 4w3
+F ESTJ 5w6 so/sx 5w6 8w7 3w4
 Generating album #99...
 Generating album #98...
 Generating album #97...
@@ -104,638 +104,646 @@ Generating album #1...
 ALTERNATE HIP HOP HISTORY - TOP 100 ALBUMS
 ================================================================================
 
-#100 - 4, 5, 6
-   Artist: Souls of Mischief
-      Personality: INTJ 5w6 sx/so 5w6 8w9 3w4
-   Release Date: 6/17/2002
+#100 - Paid In Full
+   Artist: V.O.S.
+      Personality: ENFP 3w4 sx/so 3w4 8w7 7w6
+   Release Date: 10/1/1995
 
-#99 - Below the Heavens
-   Artist: Souls of Mischief
-      Personality: INTJ 5w6 sx/so 5w6 8w9 3w4
-   Release Date: 2/10/2019
-
-#98 - On Top of the World
-   Artist: Madvillain
-      Personality: INFJ 2w3 sp/sx 2w3 9w1 6w7
-   Release Date: 11/1/1995
-
-#97 - To Pimp a Butterfly
-   Artist: Digable Planets
-      Personality: ENFJ 7w8 sx/sp 7w8 9w8 2w1
-   Release Date: 12/22/1992
-
-#96 - Absence
-   Artist: Lil B
-      Personality: ENTJ 8w9 sx/so 8w9 3w4 5w6
-   Release Date: 2/3/1994
-
-#95 - Yeezus
-   Artist: Charles Hamilton
-      Personality: ISFP 2w1 so/sx 2w1 9w8 6w5
-   Release Date: 11/25/2017
-
-#94 - Hell Hath No Fury
+#99 - RTJ4
    Artist: Fugee
-      Personality: ENTJ 8w7 sp/sx 8w7 3w2 5w6
-   Release Date: 3/15/1992
+      Personality: INFJ 8w9 so/sp 8w9 2w1 5w4
+   Release Date: 6/10/1986
 
-#93 - Stress: The Extinction Agenda
-   Artists: Organized Konfusion, Chief Keef, Lil B
-      - Organized Konfusion: ENTJ 3w4 sx/so 3w4 8w7 6w5
-      - Chief Keef: ENTP 9w8 sx/so 9w8 3w2 6w7
-      - Lil B: ENTJ 8w9 sx/so 8w9 3w4 5w6
-   Release Date: 10/11/2018
-
-#92 - Follow the Leader
-   Artist: Yung Beef
-      Personality: ISTP 6w5 sp/sx 6w5 9w8 3w2
-   Release Date: 12/7/1994
-
-#91 - Reasonable Doubt
-   Artist: Ghostface Killah
-      Personality: ENTP 7w8 sp/sx 7w8 9w1 4w5
-   Release Date: 12/17/1987
-
-#90 - Watch My Back
-   Artist: Clipse
-      Personality: INFJ 6w5 sx/sp 6w5 1w2 4w5
-   Release Date: 11/24/1989
-
-#89 - Center of Attention
-   Artist: Madvillain
-      Personality: INFJ 2w3 sp/sx 2w3 9w1 6w7
-   Release Date: 4/15/2018
-
-#88 - Things Fall Apart
-   Artist: Pusha T
-      Personality: ENFP 4w5 sp/so 4w5 9w1 7w6
-   Release Date: 9/3/2018
-
-#87 - The Impossible Kid
-   Artist: Denzel Curry
-      Personality: ENFJ 7w8 sx/sp 7w8 9w8 3w2
-   Release Date: 6/12/1998
-
-#86 - Well Isn't This Awkward
-   Artists: Future, Chief Keef
-      - Future: INFP 6w5 so/sx 6w5 9w1 4w3
-      - Chief Keef: ENTP 9w8 sx/so 9w8 3w2 6w7
-   Release Date: 6/2/1988
-
-#85 - The Don Killuminati: The 7 Day Theory
-   Artists: Tiro de Gracia, Pharoahe Monch, Chris Travis, Pusha T
-      - Tiro de Gracia: ESFP 7w8 so/sx 7w8 9w8 3w2
-      - Pharoahe Monch: INFP 9w1 so/sx 9w1 4w3 7w6
-      - Chris Travis: INFP 9w1 sp/sx 9w1 4w5 6w5
-      - Pusha T: ENFP 4w5 sp/so 4w5 9w1 7w6
-   Release Date: 12/4/2007
-
-#84 - Nocturnal
-   Artist: Charles Hamilton
-      Personality: ISFP 2w1 so/sx 2w1 9w8 6w5
-   Release Date: 4/19/2006
-
-#83 - Fantastic Vol. 2
-   Artist: Earl Sweatshirt
-      Personality: INFJ 2w1 sx/so 2w1 9w1 5w6
-   Release Date: 7/7/1987
-
-#82 - Word…Life
-   Artist: Digable Planets
-      Personality: ENFJ 7w8 sx/sp 7w8 9w8 2w1
-   Release Date: 1/25/2014
-
-#81 - Midnight Marauders
-   Artists: Danny Brown, Lil B, Heltah Skeltah, GZA, BROCKHAMPTON
-      - Danny Brown: INFP 9w1 sp/sx 9w1 4w3 6w7
-      - Lil B: ENTJ 8w9 sx/so 8w9 3w4 5w6
-      - Heltah Skeltah: ISTP 5w6 so/sx 5w6 8w9 3w4
-      - GZA: ENTP 7w6 sx/so 7w6 9w1 4w3
-      - BROCKHAMPTON: ESTP 6w7 sp/so 6w7 8w7 3w2
-   Release Date: 1/21/2024
-
-#80 - Scrapyard
-   Artist: Pusha T
-      Personality: ENFP 4w5 sp/so 4w5 9w1 7w6
-   Release Date: 6/11/2001
-
-#79 - Steal This Album
-   Artist: Charles Hamilton
-      Personality: ISFP 2w1 so/sx 2w1 9w8 6w5
-   Release Date: 12/19/2012
-
-#78 - History Will Absolve Me
-   Artists: Tommy Wright III, Pusha T, Earl Sweatshirt
-      - Tommy Wright III: ESFP 8w9 sx/so 8w9 4w3 6w7
-      - Pusha T: ENFP 4w5 sp/so 4w5 9w1 7w6
-      - Earl Sweatshirt: INFJ 2w1 sx/so 2w1 9w1 5w6
-   Release Date: 8/22/2007
-
-#77 - It Was Written
-   Artist: Digable Planets
-      Personality: ENFJ 7w8 sx/sp 7w8 9w8 2w1
-   Release Date: 8/1/2004
-
-#76 - The Chronic
-   Artist: Tommy Wright III
-      Personality: ESFP 8w9 sx/so 8w9 4w3 6w7
-   Release Date: 5/5/2023
-
-#75 - Maps
-   Artist: BK
-      Personality: INFJ 2w3 sp/sx 2w3 9w8 6w5
-   Release Date: 4/6/2007
-
-#74 - Me Against the World
-   Artist: Goodie Mob
-      Personality: INFJ 6w5 so/sx 6w5 9w1 4w5
-   Release Date: 4/12/1986
-
-#73 - The Cold Vein
-   Artists: Benny the Butcher, Fugee, Chris Travis, Future
-      - Benny the Butcher: ENFJ 2w3 sx/so 2w3 9w1 6w7
-      - Fugee: ENTJ 8w7 sp/sx 8w7 3w2 5w6
-      - Chris Travis: INFP 9w1 sp/sx 9w1 4w5 6w5
-      - Future: INFP 6w5 so/sx 6w5 9w1 4w3
-   Release Date: 2/20/2002
-
-#72 - Take Me to Your Leader
-   Artist: Ghostface Killah
-      Personality: ENTP 7w8 sp/sx 7w8 9w1 4w5
-   Release Date: 12/3/2011
-
-#71 - Center of Attention
-   Artist: Tiro de Gracia
-      Personality: ESFP 7w8 so/sx 7w8 9w8 3w2
-   Release Date: 9/22/2000
-
-#70 - All My Heroes Are Cornballs
-   Artist: Denzel Curry
-      Personality: ENFJ 7w8 sx/sp 7w8 9w8 3w2
-   Release Date: 4/4/1992
-
-#69 - Illmatic
-   Artist: Chief Keef
-      Personality: ENTP 9w8 sx/so 9w8 3w2 6w7
-   Release Date: 9/24/2007
-
-#68 - My Beautiful Dark Twisted Fantasy
-   Artist: Yung Beef
-      Personality: ISTP 6w5 sp/sx 6w5 9w8 3w2
-   Release Date: 1/4/2002
-
-#67 - Runnin-n-Gunnin
-   Artist: Chief Keef
-      Personality: ENTP 9w8 sx/so 9w8 3w2 6w7
-   Release Date: 4/11/2022
-
-#66 - Illmatic
-   Artist: Tommy Wright III
-      Personality: ESFP 8w9 sx/so 8w9 4w3 6w7
-   Release Date: 4/27/1995
-
-#65 - People's Instinctive Travels and the Paths of Rhythm
-   Artist: Tommy Wright III
-      Personality: ESFP 8w9 sx/so 8w9 4w3 6w7
-   Release Date: 4/4/2023
-
-#64 - The Low End Theory
-   Artist: Outkast
-      Personality: ENFJ 2w3 sp/sx 2w3 9w8 7w8
-   Release Date: 10/14/1990
-
-#63 - Aethiopes
-   Artist: Denzel Curry
-      Personality: ENFJ 7w8 sx/sp 7w8 9w8 3w2
-   Release Date: 1/27/2023
-
-#62 - Haitian Body Odor
-   Artist: Madvillain
-      Personality: INFJ 2w3 sp/sx 2w3 9w1 6w7
-   Release Date: 10/23/2017
-
-#61 - Scaring the Hoes
-   Artist: El-P
-      Personality: ENFJ 2w1 sx/sp 2w1 9w1 7w6
-   Release Date: 3/9/2015
-
-#60 - No Love Deep Web
-   Artist: Ghostface Killah
-      Personality: ENTP 7w8 sp/sx 7w8 9w1 4w5
-   Release Date: 7/2/2007
-
-#59 - De La Soul Is Dead
+#98 - Melt My Eyez See Your Future
    Artist: Future
-      Personality: INFP 6w5 so/sx 6w5 9w1 4w3
-   Release Date: 3/24/1991
+      Personality: INFJ 6w5 sx/sp 6w5 1w2 4w5
+   Release Date: 11/25/1994
 
-#58 - The Infamous
-   Artist: King Geedorah
-      Personality: ESTP 9w8 sx/sp 9w8 3w4 7w8
-   Release Date: 11/25/2006
-
-#57 - Buhloone Mindstate
-   Artists: McKinley Dixon, Playboi Carti, Dalek, Ovsyankin
-      - McKinley Dixon: INTP 5w6 sx/so 5w6 9w8 3w4
-      - Playboi Carti: ESFP 7w6 so/sp 7w6 9w8 2w3
-      - Dalek: ENFP 7w6 sx/sp 7w6 9w8 2w3
-      - Ovsyankin: ESTP 7w8 so/sx 7w8 9w8 3w4
-   Release Date: 8/11/2011
-
-#56 - Pinata
-   Artist: Madvillain
-      Personality: INFJ 2w3 sp/sx 2w3 9w1 6w7
-   Release Date: 4/23/1985
-
-#55 - Mystic Stylez
-   Artist: Lil B
-      Personality: ENTJ 8w9 sx/so 8w9 3w4 5w6
-   Release Date: 2/25/1995
-
-#54 - It Takes a Nation of Millions to Hold Us Back
-   Artists: Common, Blu, Tiro de Gracia, SpaceGhostPurrp
-      - Common: ESTP 3w4 so/sx 3w4 8w7 7w8
-      - Blu: INFJ 4w5 sx/so 4w5 1w2 6w5
-      - Tiro de Gracia: ESFP 7w8 so/sx 7w8 9w8 3w2
-      - SpaceGhostPurrp: ENFJ 4w3 sx/sp 4w3 1w9 6w7
-   Release Date: 1/2/1995
-
-#53 - Bizarre Ride II
-   Artists: Common Sense, King Geedorah
-      - Common Sense: ENTP 5w4 so/sp 5w4 8w7 3w4
-      - King Geedorah: ESTP 9w8 sx/sp 9w8 3w4 7w8
-   Release Date: 3/10/1988
-
-#52 - Mystic Stylez
-   Artist: King Geedorah
-      Personality: ESTP 9w8 sx/sp 9w8 3w4 7w8
-   Release Date: 6/16/1993
-
-#51 - We Got It 4 Cheap Vol. 2
-   Artist: Organized Konfusion
-      Personality: ENTJ 3w4 sx/so 3w4 8w7 6w5
-   Release Date: 2/10/1994
-
-#50 - Steal This Album
-   Artist: Chief Keef
-      Personality: ENTP 9w8 sx/so 9w8 3w2 6w7
-   Release Date: 9/10/1993
-
-#49 - RTJ4
+#97 - 4eva Is a Mighty Long Time
    Artist: Noname
-      Personality: INFP 4w5 sp/so 4w5 9w1 6w5
-   Release Date: 10/22/2000
+      Personality: ENTJ 3w4 sp/sx 3w4 8w7 6w5
+   Release Date: 11/20/2024
 
-#48 - Ashes 2 Ashes, Dust 2 Dust
-   Artists: Kool G Rap, Outkast, Playboi Carti
-      - Kool G Rap: ISTP 9w8 sx/so 9w8 4w5 5w6
-      - Outkast: ENFJ 2w3 sp/sx 2w3 9w8 7w8
-      - Playboi Carti: ESFP 7w6 so/sp 7w6 9w8 2w3
-   Release Date: 5/21/2009
+#96 - Gods Father
+   Artist: Common
+      Personality: INFP 4w5 so/sx 4w5 9w1 7w6
+   Release Date: 10/24/2025
 
-#47 - Fantastic Damage
-   Artist: Pusha T
-      Personality: ENFP 4w5 sp/so 4w5 9w1 7w6
-   Release Date: 12/21/2017
+#95 - Soundbombing II
+   Artist: Quasimoto
+      Personality: ESFP 7w8 sx/so 7w8 9w8 3w2
+   Release Date: 5/25/2020
 
-#46 - Floss
-   Artist: Yung Beef
-      Personality: ISTP 6w5 sp/sx 6w5 9w8 3w2
-   Release Date: 8/18/2014
+#94 - Muerte
+   Artist: Deltron 3030
+      Personality: INFP 2w1 sx/so 2w1 9w8 6w5
+   Release Date: 2/28/2014
 
-#45 - AmeriKKKan Korruption
-   Artist: Ovsyankin
-      Personality: ESTP 7w8 so/sx 7w8 9w8 3w4
-   Release Date: 3/3/2006
+#93 - Southernplayalisticadillacmuzik
+   Artist: V.O.S.
+      Personality: ENFP 3w4 sx/so 3w4 8w7 7w6
+   Release Date: 7/3/1990
 
-#44 - Pinata
+#92 - Art Brut
+   Artist: Kanye West
+      Personality: INFJ 1w2 sx/so 1w2 4w5 6w5
+   Release Date: 11/27/1990
+
+#91 - ATLiens
+   Artists: El-P, GZA, Kanye West, Playboi Carti, Fugee
+      - El-P: ENFP 7w6 sx/so 7w6 9w8 4w3
+      - GZA: ENFJ 2w3 sx/so 2w3 9w8 7w8
+      - Kanye West: INFJ 1w2 sx/so 1w2 4w5 6w5
+      - Playboi Carti: ISTP 8w7 sx/so 8w7 3w2 5w4
+      - Fugee: INFJ 8w9 so/sp 8w9 2w1 5w4
+   Release Date: 6/9/2017
+
+#90 - Me Against the World
+   Artist: Madvillain
+      Personality: INTJ 8w9 sp/so 8w9 3w2 5w6
+   Release Date: 10/4/2003
+
+#89 - XXX
+   Artist: Pharoahe Monch
+      Personality: ESFP 3w2 sx/so 3w2 8w7 7w8
+   Release Date: 2/5/2010
+
+#88 - Beloved! Paradise! Jazz!?
+   Artists: Slum Village, Common, Deltron 3030
+      - Slum Village: ESFP 3w4 sx/so 3w4 8w7 7w8
+      - Common: INFP 4w5 so/sx 4w5 9w1 7w6
+      - Deltron 3030: INFP 2w1 sx/so 2w1 9w8 6w5
+   Release Date: 2/4/2022
+
+#87 - Aethiopes
+   Artist: Future
+      Personality: INFJ 6w5 sx/sp 6w5 1w2 4w5
+   Release Date: 5/10/2008
+
+#86 - Ill Communication
+   Artists: Lil B, Ice Cube, Pharoahe Monch, Kingpin Skinny Pimp
+      - Lil B: ENTP 5w4 so/sp 5w4 8w7 3w2
+      - Ice Cube: ENTP 7w8 so/sp 7w8 9w1 3w4
+      - Pharoahe Monch: ESFP 3w2 sx/so 3w2 8w7 7w8
+      - Kingpin Skinny Pimp: INFP 6w5 so/sp 6w5 9w1 4w3
+   Release Date: 12/10/2005
+
+#85 - Mr. Morale & The Big Steppers
+   Artists: Mobb Deep, Cannibal Ox, Canserbero, Raekwon
+      - Mobb Deep: ENFP 2w3 sp/sx 2w3 9w1 7w6
+      - Cannibal Ox: ENTJ 3w4 sx/so 3w4 8w9 6w7
+      - Canserbero: ESTP 7w8 sx/sp 7w8 9w8 3w4
+      - Raekwon: INFP 9w8 so/sp 9w8 4w5 5w6
+   Release Date: 5/22/1998
+
+#84 - Watch My Back
+   Artist: Slum Village
+      Personality: ESFP 3w4 sx/so 3w4 8w7 7w8
+   Release Date: 1/16/1989
+
+#83 - L'Ecole du Micro D'Argent
+   Artists: Heltah Skeltah, Kingpin Skinny Pimp, Danny Brown, Noname
+      - Heltah Skeltah: ISFP 9w8 sp/sx 9w8 3w2 6w7
+      - Kingpin Skinny Pimp: INFP 6w5 so/sp 6w5 9w1 4w3
+      - Danny Brown: ISTP 6w5 sx/so 6w5 9w8 3w4
+      - Noname: ENTJ 3w4 sp/sx 3w4 8w7 6w5
+   Release Date: 5/4/2006
+
+#82 - King's Disease III
+   Artist: The Roots
+      Personality: INFJ 9w1 sp/so 9w1 4w5 5w4
+   Release Date: 8/19/2020
+
+#81 - De La Soul Is Dead
+   Artists: IAM, GZA, billy woods, Capital Steez, Nujabes
+      - IAM: ENFP 7w8 sx/sp 7w8 9w8 4w3
+      - GZA: ENFJ 2w3 sx/so 2w3 9w8 7w8
+      - billy woods: ENTP 7w8 sx/sp 7w8 9w8 3w4
+      - Capital Steez: INFP 4w5 sx/sp 4w5 9w1 6w5
+      - Nujabes: ISFP 6w5 sp/sx 6w5 9w1 4w3
+   Release Date: 7/20/1988
+
+#80 - To Pimp a Butterfly
+   Artist: Pharoahe Monch
+      Personality: ESFP 3w2 sx/so 3w2 8w7 7w8
+   Release Date: 12/24/2019
+
+#79 - Ill Communication
+   Artists: JPEGMAFIA, Death Grips, Chief Keef
+      - JPEGMAFIA: INFJ 3w2 sp/sx 3w2 9w1 5w6
+      - Death Grips: INTJ 8w7 sp/sx 8w7 3w4 6w5
+      - Chief Keef: ESTP 3w4 sp/sx 3w4 8w7 7w8
+   Release Date: 1/2/1988
+
+#78 - The Low End Theory
+   Artist: Boldy James
+      Personality: INTJ 5w6 sp/so 5w6 1w9 3w4
+   Release Date: 8/24/2021
+
+#77 - Moment of Truth
+   Artist: Deltron 3030
+      Personality: INFP 2w1 sx/so 2w1 9w8 6w5
+   Release Date: 12/14/2018
+
+#76 - Train of Thought
+   Artist: Slum Village
+      Personality: ESFP 3w4 sx/so 3w4 8w7 7w8
+   Release Date: 8/20/2014
+
+#75 - On Top of the World
+   Artist: Roc Marciano
+      Personality: ENFJ 3w2 sx/sp 3w2 9w8 7w6
+   Release Date: 3/25/2025
+
+#74 - The Life of Pablo
+   Artists: PRO8L3M, JID, Travis Scott, Kanye West
+      - PRO8L3M: ESFP 7w8 so/sx 7w8 9w8 3w4
+      - JID: ESFP 7w6 sx/sp 7w6 9w8 2w3
+      - Travis Scott: ESFP 4w3 sx/so 4w3 8w7 6w7
+      - Kanye West: INFJ 1w2 sx/so 1w2 4w5 6w5
+   Release Date: 8/25/2021
+
+#73 - Metaphorical Music
+   Artist: Boldy James
+      Personality: INTJ 5w6 sp/so 5w6 1w9 3w4
+   Release Date: 5/4/2024
+
+#72 - All My Heroes Are Cornballs
+   Artist: Lil B
+      Personality: ENTP 5w4 so/sp 5w4 8w7 3w2
+   Release Date: 5/20/2009
+
+#71 - TABOO
+   Artist: Playboi Carti
+      Personality: ISTP 8w7 sx/so 8w7 3w2 5w4
+   Release Date: 9/24/2024
+
+#70 - A Day Late and a Dollar Short
+   Artist: Quadeca
+      Personality: ESFP 3w2 sp/so 3w2 8w7 7w6
+   Release Date: 12/24/1995
+
+#69 - Reachin
+   Artist: Quadeca
+      Personality: ESFP 3w2 sp/so 3w2 8w7 7w6
+   Release Date: 5/2/1991
+
+#68 - Back From the Dead 2
+   Artist: MF DOOM
+      Personality: ISTP 6w7 sp/so 6w7 8w9 4w3
+   Release Date: 4/19/1993
+
+#67 - The Main Ingredient
+   Artist: Cannibal Ox
+      Personality: ENTJ 3w4 sx/so 3w4 8w9 6w7
+   Release Date: 6/26/2013
+
+#66 - $vlena Gxmez Trvphov$$E Tvpe
+   Artist: Little Simz
+      Personality: ENFP 7w6 sp/sx 7w6 9w1 3w2
+   Release Date: 5/19/1997
+
+#65 - Below the Heavens
+   Artist: V.O.S.
+      Personality: ENFP 3w4 sx/so 3w4 8w7 7w6
+   Release Date: 2/25/2000
+
+#64 - The College Dropout
+   Artist: El-P
+      Personality: ENFP 7w6 sx/so 7w6 9w8 4w3
+   Release Date: 7/13/2016
+
+#63 - Runnin-n-Gunnin
+   Artist: Outkast
+      Personality: ESTP 7w8 so/sp 7w8 9w1 3w2
+   Release Date: 5/1/2017
+
+#62 - The Chronic
+   Artists: Black Alien, Playboi Carti, V.O.S., Chris Travis
+      - Black Alien: INFP 4w5 sp/so 4w5 9w1 6w7
+      - Playboi Carti: ISTP 8w7 sx/so 8w7 3w2 5w4
+      - V.O.S.: ENFP 3w4 sx/so 3w4 8w7 7w6
+      - Chris Travis: INFP 9w1 sx/so 9w1 4w5 6w5
+   Release Date: 10/6/1999
+
+#61 - Stankonia
+   Artist: El-P
+      Personality: ENFP 7w6 sx/so 7w6 9w8 4w3
+   Release Date: 6/22/2021
+
+#60 - Labor Days
+   Artist: Quadeca
+      Personality: ESFP 3w2 sp/so 3w2 8w7 7w6
+   Release Date: 9/1/1989
+
+#59 - Life After Death
+   Artist: Nujabes
+      Personality: ISFP 6w5 sp/sx 6w5 9w1 4w3
+   Release Date: 5/24/1987
+
+#58 - Third Side of Tape
+   Artist: Pharoahe Monch
+      Personality: ESFP 3w2 sx/so 3w2 8w7 7w8
+   Release Date: 3/7/2005
+
+#57 - Die Lit
+   Artist: Mobb Deep
+      Personality: ENFP 2w3 sp/sx 2w3 9w1 7w6
+   Release Date: 9/23/1995
+
+#56 - Reachin
+   Artist: Canserbero
+      Personality: ESTP 7w8 sx/sp 7w8 9w8 3w4
+   Release Date: 7/17/2002
+
+#55 - Soundbombing II
+   Artist: Tyler the Creator
+      Personality: ENTJ 7w8 sx/sp 7w8 1w2 3w4
+   Release Date: 10/10/2020
+
+#54 - Nocturnal
+   Artists: Makiza, MF DOOM, Koopsta Knicca
+      - Makiza: ISFP 9w8 so/sp 9w8 4w5 6w7
+      - MF DOOM: ISTP 6w7 sp/so 6w7 8w9 4w3
+      - Koopsta Knicca: ENFJ 2w3 sx/so 2w3 8w9 6w7
+   Release Date: 2/20/1995
+
+#53 - Endtroducing
+   Artist: Quadeca
+      Personality: ESFP 3w2 sp/so 3w2 8w7 7w6
+   Release Date: 4/22/1987
+
+#52 - Ashes 2 Ashes, Dust 2 Dust
+   Artist: Blu
+      Personality: ISTP 8w7 sp/sx 8w7 3w4 5w6
+   Release Date: 1/15/1993
+
+#51 - Goth Luv
+   Artists: Goodie Mob, Raekwon
+      - Goodie Mob: INFJ 2w3 sp/so 2w3 9w1 6w7
+      - Raekwon: INFP 9w8 so/sp 9w8 4w5 5w6
+   Release Date: 3/14/2008
+
+#50 - Die Lit
+   Artist: Dalek
+      Personality: INFJ 1w2 sx/sp 1w2 4w5 6w5
+   Release Date: 2/20/1992
+
+#49 - Runnin-n-Gunnin
+   Artist: Death Grips
+      Personality: INTJ 8w7 sp/sx 8w7 3w4 6w5
+   Release Date: 5/2/1998
+
+#48 - By the Time I Get to Phoenix
    Artist: Heltah Skeltah
-      Personality: ISTP 5w6 so/sx 5w6 8w9 3w4
-   Release Date: 3/23/2012
+      Personality: ISFP 9w8 sp/sx 9w8 3w2 6w7
+   Release Date: 4/20/1998
 
-#43 - Visions of Bodies Being Burned
-   Artist: DJ Shadow
-      Personality: ESTP 8w7 so/sx 8w7 3w2 6w5
-   Release Date: 2/25/1993
+#47 - The Minstrel Show
+   Artist: Danny Brown
+      Personality: ISTP 6w5 sx/so 6w5 9w8 3w4
+   Release Date: 1/21/2013
 
-#42 - Metaphorical Music
-   Artist: Fugee
-      Personality: ENTJ 8w7 sp/sx 8w7 3w2 5w6
-   Release Date: 3/15/1988
+#46 - GTBSG
+   Artist: Koopsta Knicca
+      Personality: ENFJ 2w3 sx/so 2w3 8w9 6w7
+   Release Date: 8/25/2009
 
-#41 - Pizza and Codeine
-   Artist: Benny the Butcher
-      Personality: ENFJ 2w3 sx/so 2w3 9w1 6w7
-   Release Date: 10/10/1991
+#45 - Maps
+   Artist: BROCKHAMPTON
+      Personality: ENTP 5w4 sp/sx 5w4 8w7 3w2
+   Release Date: 5/2/2016
 
-#40 - Part 3 Spring Mix '95
-   Artist: Chief Keef
-      Personality: ENTP 9w8 sx/so 9w8 3w2 6w7
-   Release Date: 6/25/2007
+#44 - Luh Hertz
+   Artists: Tommy Wright III, Boldy James, Big Pun, Nujabes
+      - Tommy Wright III: ENFJ 3w2 so/sp 3w2 1w2 6w7
+      - Boldy James: INTJ 5w6 sp/so 5w6 1w9 3w4
+      - Big Pun: ENFP 2w3 sp/sx 2w3 9w8 6w5
+      - Nujabes: ISFP 6w5 sp/sx 6w5 9w1 4w3
+   Release Date: 1/19/2002
 
-#39 - Dah Shinin'
-   Artist: Ghostface Killah
-      Personality: ENTP 7w8 sp/sx 7w8 9w1 4w5
-   Release Date: 1/11/1999
+#43 - Black Star
+   Artist: Koopsta Knicca
+      Personality: ENFJ 2w3 sx/so 2w3 8w9 6w7
+   Release Date: 12/9/1989
 
-#38 - Bottomless Pit
-   Artist: The Notorious B.I.G.
-      Personality: ISTP 8w9 sx/so 8w9 3w4 6w5
-   Release Date: 2/18/1997
+#42 - Soul Food
+   Artist: Pharoahe Monch
+      Personality: ESFP 3w2 sx/so 3w2 8w7 7w8
+   Release Date: 2/5/2019
 
-#37 - 3 Feet High and Rising
-   Artists: The Pharcyde, The Notorious B.I.G.
-      - The Pharcyde: INFP 4w5 sp/so 4w5 9w1 6w5
-      - The Notorious B.I.G.: ISTP 8w9 sx/so 8w9 3w4 6w5
-   Release Date: 7/6/1985
+#41 - Quaranta
+   Artist: Black Alien
+      Personality: INFP 4w5 sp/so 4w5 9w1 6w7
+   Release Date: 12/21/2011
 
-#36 - De La Soul Is Dead
-   Artist: The Pharcyde
-      Personality: INFP 4w5 sp/so 4w5 9w1 6w5
-   Release Date: 7/25/2010
+#40 - Good kid, m.a.a.d city
+   Artist: Black Alien
+      Personality: INFP 4w5 sp/so 4w5 9w1 6w7
+   Release Date: 8/5/2019
 
-#35 - Uptown Saturday Night
+#39 - Memento Mori
+   Artist: Nas
+      Personality: INTJ 5w4 so/sp 5w4 8w7 3w4
+   Release Date: 6/3/1985
+
+#38 - Flower Boy
+   Artist: Ice Cube
+      Personality: ENTP 7w8 so/sp 7w8 9w1 3w4
+   Release Date: 4/25/2015
+
+#37 - The Lost Tapes
+   Artist: Cannibal Ox
+      Personality: ENTJ 3w4 sx/so 3w4 8w9 6w7
+   Release Date: 11/3/1998
+
+#36 - Sometimes I Might Be Introvert
    Artist: Common
-      Personality: ESTP 3w4 so/sx 3w4 8w7 7w8
-   Release Date: 1/5/2013
+      Personality: INFP 4w5 so/sx 4w5 9w1 7w6
+   Release Date: 10/7/2019
 
-#34 - Like Water for Chocolate
-   Artist: McKinley Dixon
-      Personality: INTP 5w6 sx/so 5w6 9w8 3w4
-   Release Date: 5/2/2024
+#35 - Run the Jewels 2
+   Artist: Roc Marciano
+      Personality: ENFJ 3w2 sx/sp 3w2 9w8 7w6
+   Release Date: 6/7/2016
 
-#33 - Live and Let Die
-   Artists: Danger Mouse, Denzel Curry, Fugee
-      - Danger Mouse: INTJ 8w9 sx/so 8w9 3w4 5w6
-      - Denzel Curry: ENFJ 7w8 sx/sp 7w8 9w8 3w2
-      - Fugee: ENTJ 8w7 sp/sx 8w7 3w2 5w6
-   Release Date: 5/6/1986
-
-#32 - The Devil's Playground
-   Artist: Bladee
-      Personality: INTJ 8w9 sx/sp 8w9 4w5 5w6
-   Release Date: 2/21/2005
-
-#31 - Art Brut
+#34 - Swimming
    Artist: Danger Mouse
-      Personality: INTJ 8w9 sx/so 8w9 3w4 5w6
-   Release Date: 5/12/2013
+      Personality: ENFP 9w8 sx/so 9w8 4w3 6w7
+   Release Date: 1/22/2012
 
-#30 - Game Theory
-   Artist: McKinley Dixon
-      Personality: INTP 5w6 sx/so 5w6 9w8 3w4
-   Release Date: 6/9/2015
-
-#29 - Return to the 36 Chambers
-   Artist: Common
-      Personality: ESTP 3w4 so/sx 3w4 8w7 7w8
-   Release Date: 1/23/2014
-
-#28 - The Infamous
-   Artist: Common
-      Personality: ESTP 3w4 so/sx 3w4 8w7 7w8
-   Release Date: 4/13/2007
-
-#27 - We Got It 4 Cheap Vol. 2
-   Artist: Big L
-      Personality: INFP 5w4 sx/so 5w4 9w1 2w1
-   Release Date: 9/5/2000
-
-#26 - AmeriKKKa's Most Wanted
-   Artist: Ghostface Killah
-      Personality: ENTP 7w8 sp/sx 7w8 9w1 4w5
-   Release Date: 7/3/1993
-
-#25 - The Juggaknots
-   Artist: Fugee
-      Personality: ENTJ 8w7 sp/sx 8w7 3w2 5w6
-   Release Date: 12/5/2009
-
-#24 - Good kid, m.a.a.d city
-   Artist: Clipse
+#33 - Yayayi
+   Artist: Future
       Personality: INFJ 6w5 sx/sp 6w5 1w2 4w5
-   Release Date: 6/14/2015
+   Release Date: 12/11/2013
 
-#23 - Operation: Doomsday
-   Artist: Eminem
-      Personality: ISTP 9w8 sp/sx 9w8 3w4 6w7
-   Release Date: 5/16/2008
+#32 - Daily Operation
+   Artist: JPEGMAFIA
+      Personality: INFJ 3w2 sp/sx 3w2 9w1 5w6
+   Release Date: 12/3/1990
 
-#22 - Dah Shinin'
-   Artist: Benny the Butcher
-      Personality: ENFJ 2w3 sx/so 2w3 9w1 6w7
-   Release Date: 9/18/1994
+#31 - Stankonia
+   Artist: MF DOOM
+      Personality: ISTP 6w7 sp/so 6w7 8w9 4w3
+   Release Date: 5/26/1997
 
-#21 - LiveLoveA$AP
-   Artist: VICKI LEEKX
-      Personality: ENFJ 3w2 sx/so 3w2 1w9 6w7
-   Release Date: 12/19/1986
+#30 - The College Dropout
+   Artist: V.O.S.
+      Personality: ENFP 3w4 sx/so 3w4 8w7 7w6
+   Release Date: 1/18/1997
 
-#20 - Melt My Eyez See Your Future
-   Artist: Madvillain
-      Personality: INFJ 2w3 sp/sx 2w3 9w1 6w7
-   Release Date: 1/4/2020
+#29 - Doggystyle
+   Artist: Nas
+      Personality: INTJ 5w4 so/sp 5w4 8w7 3w4
+   Release Date: 10/20/1996
 
-#19 - The Chronic
-   Artist: Fugee
-      Personality: ENTJ 8w7 sp/sx 8w7 3w2 5w6
-   Release Date: 6/10/2019
+#28 - Jenny Death
+   Artist: Black Alien
+      Personality: INFP 4w5 sp/so 4w5 9w1 6w7
+   Release Date: 5/17/2018
 
-#18 - Burning Desire
-   Artist: King Geedorah
-      Personality: ESTP 9w8 sx/sp 9w8 3w4 7w8
-   Release Date: 7/5/2001
+#27 - Saturation III
+   Artist: Boldy James
+      Personality: INTJ 5w6 sp/so 5w6 1w9 3w4
+   Release Date: 11/17/2006
 
-#17 - Quaranta
-   Artist: McKinley Dixon
-      Personality: INTP 5w6 sx/so 5w6 9w8 3w4
-   Release Date: 12/6/2010
-
-#16 - GTBSG
-   Artist: Fugee
-      Personality: ENTJ 8w7 sp/sx 8w7 3w2 5w6
-   Release Date: 7/22/2002
-
-#15 - The Blueprint
-   Artist: Common Sense
-      Personality: ENTP 5w4 so/sp 5w4 8w7 3w4
-   Release Date: 6/14/1988
-
-#14 - Funcrusher Plus
-   Artist: Common
-      Personality: ESTP 3w4 so/sx 3w4 8w7 7w8
-   Release Date: 10/14/2002
-
-#13 - Burning Desire
-   Artist: Madvillain
-      Personality: INFJ 2w3 sp/sx 2w3 9w1 6w7
-   Release Date: 11/14/2005
-
-#12 - Well Isn't This Awkward
+#26 - Twerkin 10 Cellphone$
    Artist: JID
-      Personality: ISFP 9w8 sx/so 9w8 4w3 6w7
-   Release Date: 2/17/2021
+      Personality: ESFP 7w6 sx/sp 7w6 9w8 2w3
+   Release Date: 11/19/2024
 
-#11 - Mauvais Oeil
-   Artists: Prince Paul, Kendrick Lamar, Earl Sweatshirt, Smif-n-Wessun
-      - Prince Paul: INFJ 1w2 sx/sp 1w2 4w5 5w4
-      - Kendrick Lamar: ESFP 3w2 sx/sp 3w2 8w7 7w6
-      - Earl Sweatshirt: INFJ 2w1 sx/so 2w1 9w1 5w6
-      - Smif-n-Wessun: ISFP 6w5 so/sp 6w5 8w9 4w3
-   Release Date: 1/4/2004
+#25 - Tana Talk 3
+   Artist: Chris Travis
+      Personality: INFP 9w1 sx/so 9w1 4w5 6w5
+   Release Date: 11/27/1987
 
-#10 - Take Me to Your Leader
-   Artist: Common Sense
-      Personality: ENTP 5w4 so/sp 5w4 8w7 3w4
-   Release Date: 2/23/1998
+#24 - Soul Food
+   Artists: Lil Ugly Mane, clipping., Future, Main Source, IAM
+      - Lil Ugly Mane: ENTP 7w6 sp/so 7w6 9w8 3w2
+      - clipping.: ESFP 3w4 sp/so 3w4 8w7 7w8
+      - Future: INFJ 6w5 sx/sp 6w5 1w2 4w5
+      - Main Source: INFP 4w5 sp/sx 4w5 9w1 6w7
+      - IAM: ENFP 7w8 sx/sp 7w8 9w8 4w3
+   Release Date: 1/28/2007
 
-#9 - Art Brut
-   Artist: Yung Beef
-      Personality: ISTP 6w5 sp/sx 6w5 9w8 3w2
-   Release Date: 6/4/1998
+#23 - Ridin Dirty
+   Artist: Goodie Mob
+      Personality: INFJ 2w3 sp/so 2w3 9w1 6w7
+   Release Date: 9/25/1997
 
-#8 - King of da Playaz Ball
-   Artist: VICKI LEEKX
-      Personality: ENFJ 3w2 sx/so 3w2 1w9 6w7
-   Release Date: 4/12/2013
+#22 - Return to the 36 Chambers
+   Artist: Roc Marciano
+      Personality: ENFJ 3w2 sx/sp 3w2 9w8 7w6
+   Release Date: 1/18/2009
 
-#7 - The Devil's Playground
-   Artist: Ovsyankin
-      Personality: ESTP 7w8 so/sx 7w8 9w8 3w4
-   Release Date: 8/4/1993
+#21 - Crack Cloud$ OVer Arts Kitchen
+   Artist: Black Alien
+      Personality: INFP 4w5 sp/so 4w5 9w1 6w7
+   Release Date: 7/6/2016
 
-#6 - All My Heroes Are Cornballs
-   Artist: Clipse
+#20 - King's Disease III
+   Artist: Lil B
+      Personality: ENTP 5w4 so/sp 5w4 8w7 3w2
+   Release Date: 7/17/2019
+
+#19 - Flower Boy
+   Artist: Three-6 Mafia
+      Personality: ISFP 3w4 sx/sp 3w4 9w8 6w7
+   Release Date: 11/16/2022
+
+#18 - Reachin
+   Artist: Future
       Personality: INFJ 6w5 sx/sp 6w5 1w2 4w5
-   Release Date: 1/6/1999
+   Release Date: 4/21/2020
 
-#5 - GTBSG
-   Artist: Fugee
-      Personality: ENTJ 8w7 sp/sx 8w7 3w2 5w6
-   Release Date: 3/22/2008
+#17 - Adromicfms 4
+   Artist: Danger Mouse
+      Personality: ENFP 9w8 sx/so 9w8 4w3 6w7
+   Release Date: 10/25/2003
 
-#4 - Romantizma
-   Artist: Organized Konfusion
-      Personality: ENTJ 3w4 sx/so 3w4 8w7 6w5
-   Release Date: 11/15/2004
+#16 - Breaking Atoms
+   Artists: SpaceGhostPurrp, Slum Village
+      - SpaceGhostPurrp: ESTP 8w7 so/sp 8w7 3w2 5w6
+      - Slum Village: ESFP 3w4 sx/so 3w4 8w7 7w8
+   Release Date: 5/20/1986
 
-#3 - Quaranta
-   Artist: Digable Planets
-      Personality: ENFJ 7w8 sx/sp 7w8 9w8 2w1
-   Release Date: 1/28/1987
-
-#2 - The Juggaknots
+#15 - Brass
    Artist: Common
-      Personality: ESTP 3w4 so/sx 3w4 8w7 7w8
-   Release Date: 11/21/2018
+      Personality: INFP 4w5 so/sx 4w5 9w1 7w6
+   Release Date: 3/7/2017
 
-#1 - Donuts
-   Artist: Organized Konfusion
-      Personality: ENTJ 3w4 sx/so 3w4 8w7 6w5
-   Release Date: 4/16/2012
+#14 - Soundbombing II
+   Artist: Kanye West
+      Personality: INFJ 1w2 sx/so 1w2 4w5 6w5
+   Release Date: 10/10/2003
+
+#13 - Veneno
+   Artist: Lil B
+      Personality: ENTP 5w4 so/sp 5w4 8w7 3w2
+   Release Date: 6/5/2023
+
+#12 - Black Star
+   Artist: Black Alien
+      Personality: INFP 4w5 sp/so 4w5 9w1 6w7
+   Release Date: 6/12/2025
+
+#11 - Absence
+   Artist: SpaceGhostPurrp
+      Personality: ESTP 8w7 so/sp 8w7 3w2 5w6
+   Release Date: 1/12/1985
+
+#10 - 1999
+   Artist: El-P
+      Personality: ENFP 7w6 sx/so 7w6 9w8 4w3
+   Release Date: 3/14/2024
+
+#9 - Da Devil's Playground: Underground Solo
+   Artist: Madvillain
+      Personality: INTJ 8w9 sp/so 8w9 3w2 5w6
+   Release Date: 7/5/2016
+
+#8 - Organized Konfusion
+   Artist: PRO8L3M
+      Personality: ESFP 7w8 so/sx 7w8 9w8 3w4
+   Release Date: 7/16/2014
+
+#7 - Operation: Doomsday
+   Artist: O.C.
+      Personality: ESFP 7w6 so/sp 7w6 9w8 3w2
+   Release Date: 7/5/2000
+
+#6 - Center of Attention
+   Artist: Capital Steez
+      Personality: INFP 4w5 sx/sp 4w5 9w1 6w5
+   Release Date: 10/1/2003
+
+#5 - Mecca and the Soul Brother
+   Artist: Playboi Carti
+      Personality: ISTP 8w7 sx/so 8w7 3w2 5w4
+   Release Date: 3/1/2021
+
+#4 - XXX
+   Artist: O.C.
+      Personality: ESFP 7w6 so/sp 7w6 9w8 3w2
+   Release Date: 12/1/1998
+
+#3 - Some Rap Songs
+   Artist: Koopsta Knicca
+      Personality: ENFJ 2w3 sx/so 2w3 8w9 6w7
+   Release Date: 4/27/1991
+
+#2 - Critical Beatdown
+   Artist: Mobb Deep
+      Personality: ENFP 2w3 sp/sx 2w3 9w1 7w6
+   Release Date: 2/6/1997
+
+#1 - Word…Life
+   Artist: Mobb Deep
+      Personality: ENFP 2w3 sp/sx 2w3 9w1 7w6
+   Release Date: 5/19/1992
 
 
 ================================================================================
 CHRONOLOGICAL ORDER
 ================================================================================
 
-4/23/1985 - Pinata by Madvillain (#56)
-7/6/1985 - 3 Feet High and Rising by The Pharcyde, The Notorious B.I.G. (#37)
-4/12/1986 - Me Against the World by Goodie Mob (#74)
-5/6/1986 - Live and Let Die by Danger Mouse, Denzel Curry, Fugee (#33)
-12/19/1986 - LiveLoveA$AP by VICKI LEEKX (#21)
-1/28/1987 - Quaranta by Digable Planets (#3)
-7/7/1987 - Fantastic Vol. 2 by Earl Sweatshirt (#83)
-12/17/1987 - Reasonable Doubt by Ghostface Killah (#91)
-3/10/1988 - Bizarre Ride II by Common Sense, King Geedorah (#53)
-3/15/1988 - Metaphorical Music by Fugee (#42)
-6/2/1988 - Well Isn't This Awkward by Future, Chief Keef (#86)
-6/14/1988 - The Blueprint by Common Sense (#15)
-11/24/1989 - Watch My Back by Clipse (#90)
-10/14/1990 - The Low End Theory by Outkast (#64)
-3/24/1991 - De La Soul Is Dead by Future (#59)
-10/10/1991 - Pizza and Codeine by Benny the Butcher (#41)
-3/15/1992 - Hell Hath No Fury by Fugee (#94)
-4/4/1992 - All My Heroes Are Cornballs by Denzel Curry (#70)
-12/22/1992 - To Pimp a Butterfly by Digable Planets (#97)
-2/25/1993 - Visions of Bodies Being Burned by DJ Shadow (#43)
-6/16/1993 - Mystic Stylez by King Geedorah (#52)
-7/3/1993 - AmeriKKKa's Most Wanted by Ghostface Killah (#26)
-8/4/1993 - The Devil's Playground by Ovsyankin (#7)
-9/10/1993 - Steal This Album by Chief Keef (#50)
-2/3/1994 - Absence by Lil B (#96)
-2/10/1994 - We Got It 4 Cheap Vol. 2 by Organized Konfusion (#51)
-9/18/1994 - Dah Shinin' by Benny the Butcher (#22)
-12/7/1994 - Follow the Leader by Yung Beef (#92)
-1/2/1995 - It Takes a Nation of Millions to Hold Us Back by Common, Blu, Tiro de Gracia, SpaceGhostPurrp (#54)
-2/25/1995 - Mystic Stylez by Lil B (#55)
-4/27/1995 - Illmatic by Tommy Wright III (#66)
-11/1/1995 - On Top of the World by Madvillain (#98)
-2/18/1997 - Bottomless Pit by The Notorious B.I.G. (#38)
-2/23/1998 - Take Me to Your Leader by Common Sense (#10)
-6/4/1998 - Art Brut by Yung Beef (#9)
-6/12/1998 - The Impossible Kid by Denzel Curry (#87)
-1/6/1999 - All My Heroes Are Cornballs by Clipse (#6)
-1/11/1999 - Dah Shinin' by Ghostface Killah (#39)
-9/5/2000 - We Got It 4 Cheap Vol. 2 by Big L (#27)
-9/22/2000 - Center of Attention by Tiro de Gracia (#71)
-10/22/2000 - RTJ4 by Noname (#49)
-6/11/2001 - Scrapyard by Pusha T (#80)
-7/5/2001 - Burning Desire by King Geedorah (#18)
-1/4/2002 - My Beautiful Dark Twisted Fantasy by Yung Beef (#68)
-2/20/2002 - The Cold Vein by Benny the Butcher, Fugee, Chris Travis, Future (#73)
-6/17/2002 - 4, 5, 6 by Souls of Mischief (#100)
-7/22/2002 - GTBSG by Fugee (#16)
-10/14/2002 - Funcrusher Plus by Common (#14)
-1/4/2004 - Mauvais Oeil by Prince Paul, Kendrick Lamar, Earl Sweatshirt, Smif-n-Wessun (#11)
-8/1/2004 - It Was Written by Digable Planets (#77)
-11/15/2004 - Romantizma by Organized Konfusion (#4)
-2/21/2005 - The Devil's Playground by Bladee (#32)
-11/14/2005 - Burning Desire by Madvillain (#13)
-3/3/2006 - AmeriKKKan Korruption by Ovsyankin (#45)
-4/19/2006 - Nocturnal by Charles Hamilton (#84)
-11/25/2006 - The Infamous by King Geedorah (#58)
-4/6/2007 - Maps by BK (#75)
-4/13/2007 - The Infamous by Common (#28)
-6/25/2007 - Part 3 Spring Mix '95 by Chief Keef (#40)
-7/2/2007 - No Love Deep Web by Ghostface Killah (#60)
-8/22/2007 - History Will Absolve Me by Tommy Wright III, Pusha T, Earl Sweatshirt (#78)
-9/24/2007 - Illmatic by Chief Keef (#69)
-12/4/2007 - The Don Killuminati: The 7 Day Theory by Tiro de Gracia, Pharoahe Monch, Chris Travis, Pusha T (#85)
-3/22/2008 - GTBSG by Fugee (#5)
-5/16/2008 - Operation: Doomsday by Eminem (#23)
-5/21/2009 - Ashes 2 Ashes, Dust 2 Dust by Kool G Rap, Outkast, Playboi Carti (#48)
-12/5/2009 - The Juggaknots by Fugee (#25)
-7/25/2010 - De La Soul Is Dead by The Pharcyde (#36)
-12/6/2010 - Quaranta by McKinley Dixon (#17)
-8/11/2011 - Buhloone Mindstate by McKinley Dixon, Playboi Carti, Dalek, Ovsyankin (#57)
-12/3/2011 - Take Me to Your Leader by Ghostface Killah (#72)
-3/23/2012 - Pinata by Heltah Skeltah (#44)
-4/16/2012 - Donuts by Organized Konfusion (#1)
-12/19/2012 - Steal This Album by Charles Hamilton (#79)
-1/5/2013 - Uptown Saturday Night by Common (#35)
-4/12/2013 - King of da Playaz Ball by VICKI LEEKX (#8)
-5/12/2013 - Art Brut by Danger Mouse (#31)
-1/23/2014 - Return to the 36 Chambers by Common (#29)
-1/25/2014 - Word…Life by Digable Planets (#82)
-8/18/2014 - Floss by Yung Beef (#46)
-3/9/2015 - Scaring the Hoes by El-P (#61)
-6/9/2015 - Game Theory by McKinley Dixon (#30)
-6/14/2015 - Good kid, m.a.a.d city by Clipse (#24)
-10/23/2017 - Haitian Body Odor by Madvillain (#62)
-11/25/2017 - Yeezus by Charles Hamilton (#95)
-12/21/2017 - Fantastic Damage by Pusha T (#47)
-4/15/2018 - Center of Attention by Madvillain (#89)
-9/3/2018 - Things Fall Apart by Pusha T (#88)
-10/11/2018 - Stress: The Extinction Agenda by Organized Konfusion, Chief Keef, Lil B (#93)
-11/21/2018 - The Juggaknots by Common (#2)
-2/10/2019 - Below the Heavens by Souls of Mischief (#99)
-6/10/2019 - The Chronic by Fugee (#19)
-1/4/2020 - Melt My Eyez See Your Future by Madvillain (#20)
-2/17/2021 - Well Isn't This Awkward by JID (#12)
-4/11/2022 - Runnin-n-Gunnin by Chief Keef (#67)
-1/27/2023 - Aethiopes by Denzel Curry (#63)
-4/4/2023 - People's Instinctive Travels and the Paths of Rhythm by Tommy Wright III (#65)
-5/5/2023 - The Chronic by Tommy Wright III (#76)
-1/21/2024 - Midnight Marauders by Danny Brown, Lil B, Heltah Skeltah, GZA, BROCKHAMPTON (#81)
-5/2/2024 - Like Water for Chocolate by McKinley Dixon (#34)
+1/12/1985 - Absence by SpaceGhostPurrp (#11)
+6/3/1985 - Memento Mori by Nas (#39)
+5/20/1986 - Breaking Atoms by SpaceGhostPurrp, Slum Village (#16)
+6/10/1986 - RTJ4 by Fugee (#99)
+4/22/1987 - Endtroducing by Quadeca (#53)
+5/24/1987 - Life After Death by Nujabes (#59)
+11/27/1987 - Tana Talk 3 by Chris Travis (#25)
+1/2/1988 - Ill Communication by JPEGMAFIA, Death Grips, Chief Keef (#79)
+7/20/1988 - De La Soul Is Dead by IAM, GZA, billy woods, Capital Steez, Nujabes (#81)
+1/16/1989 - Watch My Back by Slum Village (#84)
+9/1/1989 - Labor Days by Quadeca (#60)
+12/9/1989 - Black Star by Koopsta Knicca (#43)
+7/3/1990 - Southernplayalisticadillacmuzik by V.O.S. (#93)
+11/27/1990 - Art Brut by Kanye West (#92)
+12/3/1990 - Daily Operation by JPEGMAFIA (#32)
+4/27/1991 - Some Rap Songs by Koopsta Knicca (#3)
+5/2/1991 - Reachin by Quadeca (#69)
+2/20/1992 - Die Lit by Dalek (#50)
+5/19/1992 - Word…Life by Mobb Deep (#1)
+1/15/1993 - Ashes 2 Ashes, Dust 2 Dust by Blu (#52)
+4/19/1993 - Back From the Dead 2 by MF DOOM (#68)
+11/25/1994 - Melt My Eyez See Your Future by Future (#98)
+2/20/1995 - Nocturnal by Makiza, MF DOOM, Koopsta Knicca (#54)
+9/23/1995 - Die Lit by Mobb Deep (#57)
+10/1/1995 - Paid In Full by V.O.S. (#100)
+12/24/1995 - A Day Late and a Dollar Short by Quadeca (#70)
+10/20/1996 - Doggystyle by Nas (#29)
+1/18/1997 - The College Dropout by V.O.S. (#30)
+2/6/1997 - Critical Beatdown by Mobb Deep (#2)
+5/19/1997 - $vlena Gxmez Trvphov$$E Tvpe by Little Simz (#66)
+5/26/1997 - Stankonia by MF DOOM (#31)
+9/25/1997 - Ridin Dirty by Goodie Mob (#23)
+4/20/1998 - By the Time I Get to Phoenix by Heltah Skeltah (#48)
+5/2/1998 - Runnin-n-Gunnin by Death Grips (#49)
+5/22/1998 - Mr. Morale & The Big Steppers by Mobb Deep, Cannibal Ox, Canserbero, Raekwon (#85)
+11/3/1998 - The Lost Tapes by Cannibal Ox (#37)
+12/1/1998 - XXX by O.C. (#4)
+10/6/1999 - The Chronic by Black Alien, Playboi Carti, V.O.S., Chris Travis (#62)
+2/25/2000 - Below the Heavens by V.O.S. (#65)
+7/5/2000 - Operation: Doomsday by O.C. (#7)
+1/19/2002 - Luh Hertz by Tommy Wright III, Boldy James, Big Pun, Nujabes (#44)
+7/17/2002 - Reachin by Canserbero (#56)
+10/1/2003 - Center of Attention by Capital Steez (#6)
+10/4/2003 - Me Against the World by Madvillain (#90)
+10/10/2003 - Soundbombing II by Kanye West (#14)
+10/25/2003 - Adromicfms 4 by Danger Mouse (#17)
+3/7/2005 - Third Side of Tape by Pharoahe Monch (#58)
+12/10/2005 - Ill Communication by Lil B, Ice Cube, Pharoahe Monch, Kingpin Skinny Pimp (#86)
+5/4/2006 - L'Ecole du Micro D'Argent by Heltah Skeltah, Kingpin Skinny Pimp, Danny Brown, Noname (#83)
+11/17/2006 - Saturation III by Boldy James (#27)
+1/28/2007 - Soul Food by Lil Ugly Mane, clipping., Future, Main Source, IAM (#24)
+3/14/2008 - Goth Luv by Goodie Mob, Raekwon (#51)
+5/10/2008 - Aethiopes by Future (#87)
+1/18/2009 - Return to the 36 Chambers by Roc Marciano (#22)
+5/20/2009 - All My Heroes Are Cornballs by Lil B (#72)
+8/25/2009 - GTBSG by Koopsta Knicca (#46)
+2/5/2010 - XXX by Pharoahe Monch (#89)
+12/21/2011 - Quaranta by Black Alien (#41)
+1/22/2012 - Swimming by Danger Mouse (#34)
+1/21/2013 - The Minstrel Show by Danny Brown (#47)
+6/26/2013 - The Main Ingredient by Cannibal Ox (#67)
+12/11/2013 - Yayayi by Future (#33)
+2/28/2014 - Muerte by Deltron 3030 (#94)
+7/16/2014 - Organized Konfusion by PRO8L3M (#8)
+8/20/2014 - Train of Thought by Slum Village (#76)
+4/25/2015 - Flower Boy by Ice Cube (#38)
+5/2/2016 - Maps by BROCKHAMPTON (#45)
+6/7/2016 - Run the Jewels 2 by Roc Marciano (#35)
+7/5/2016 - Da Devil's Playground: Underground Solo by Madvillain (#9)
+7/6/2016 - Crack Cloud$ OVer Arts Kitchen by Black Alien (#21)
+7/13/2016 - The College Dropout by El-P (#64)
+3/7/2017 - Brass by Common (#15)
+5/1/2017 - Runnin-n-Gunnin by Outkast (#63)
+6/9/2017 - ATLiens by El-P, GZA, Kanye West, Playboi Carti, Fugee (#91)
+5/17/2018 - Jenny Death by Black Alien (#28)
+12/14/2018 - Moment of Truth by Deltron 3030 (#77)
+2/5/2019 - Soul Food by Pharoahe Monch (#42)
+7/17/2019 - King's Disease III by Lil B (#20)
+8/5/2019 - Good kid, m.a.a.d city by Black Alien (#40)
+10/7/2019 - Sometimes I Might Be Introvert by Common (#36)
+12/24/2019 - To Pimp a Butterfly by Pharoahe Monch (#80)
+4/21/2020 - Reachin by Future (#18)
+5/25/2020 - Soundbombing II by Quasimoto (#95)
+8/19/2020 - King's Disease III by The Roots (#82)
+10/10/2020 - Soundbombing II by Tyler the Creator (#55)
+3/1/2021 - Mecca and the Soul Brother by Playboi Carti (#5)
+6/22/2021 - Stankonia by El-P (#61)
+8/24/2021 - The Low End Theory by Boldy James (#78)
+8/25/2021 - The Life of Pablo by PRO8L3M, JID, Travis Scott, Kanye West (#74)
+2/4/2022 - Beloved! Paradise! Jazz!? by Slum Village, Common, Deltron 3030 (#88)
+11/16/2022 - Flower Boy by Three-6 Mafia (#19)
+6/5/2023 - Veneno by Lil B (#13)
+3/14/2024 - 1999 by El-P (#10)
+5/4/2024 - Metaphorical Music by Boldy James (#73)
+9/24/2024 - TABOO by Playboi Carti (#71)
+11/19/2024 - Twerkin 10 Cellphone$ by JID (#26)
+11/20/2024 - 4eva Is a Mighty Long Time by Noname (#97)
+3/25/2025 - On Top of the World by Roc Marciano (#75)
+6/12/2025 - Black Star by Black Alien (#12)
+10/24/2025 - Gods Father by Common (#96)
