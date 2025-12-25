@@ -423,6 +423,7 @@ def generate_top_100():
     all_rappers = {}  # Dictionary: rapper_name -> Rapper object
     all_groups = []  # List of Group objects
     reserved_positions = {}  # position -> Rapper object (for reservations)
+    used_album_names = set()  # Track used album names to prevent duplicates
 
     group_chance = 0.25  # Start with 1/4 chance
     num_group_albums = 0
@@ -455,8 +456,14 @@ def generate_top_100():
             group_chance = get_group_chance(total_albums_so_far, num_group_albums, group_chance)
             is_group = random.random() < group_chance
 
-        # Select album name
-        album_name = random.choice(album_names)
+        # Select album name (ensure it hasn't been used before)
+        available_album_names = [name for name in album_names if name not in used_album_names]
+        if available_album_names:
+            album_name = random.choice(available_album_names)
+            used_album_names.add(album_name)
+        else:
+            # Fallback if we somehow run out (shouldn't happen with 274 names for 100 albums)
+            album_name = random.choice(album_names)
 
         # Generate release date (special handling for reserved positions)
         if position in reserved_positions:
