@@ -330,13 +330,7 @@ def reserve_album_positions(rapper, current_position):
         if len(available) >= num_reservations:
             rapper.reserved_positions = random.sample(available, num_reservations)
             rapper.reserved_positions.sort(reverse=True)
-            print(f"    ✓ NEW RAPPER '{rapper.name}' at #{current_position}")
-            print(f"      Reserved {num_reservations} albums: {rapper.reserved_positions}")
-    else:
-        if num_reservations == 0:
-            print(f"    ✓ NEW RAPPER '{rapper.name}' at #{current_position} (0 reservations)")
-        else:
-            print(f"    ✓ NEW RAPPER '{rapper.name}' at #{current_position} (too close to end, no reservations)")
+            # Don't print here - caller will print after validation
 
 def generate_random_date(min_year=1985, max_year=2025):
     """Generate a random date between min_year and max_year"""
@@ -505,6 +499,11 @@ def generate_top_100():
                             reserved_positions[res_pos] = primary_rapper
                             valid_reservations.append(res_pos)
                     primary_rapper.reserved_positions = valid_reservations
+                    # Print AFTER validation
+                    if valid_reservations:
+                        print(f"    ✓ NEW RAPPER '{primary_rapper.name}' at #{position}, reserved: {valid_reservations}")
+                    else:
+                        print(f"    ✓ NEW RAPPER '{primary_rapper.name}' at #{position}, no reservations")
 
             primary_rapper.albums.append(position)
             primary_rapper.album_dates[position] = release_date
@@ -575,9 +574,17 @@ def generate_top_100():
                                 member = Rapper(member_name, personality, position)
                                 all_rappers[member_name] = member
                                 reserve_album_positions(member, position)
+                                valid_reservations = []
                                 for res_pos in member.reserved_positions:
                                     if res_pos not in reserved_positions:
                                         reserved_positions[res_pos] = member
+                                        valid_reservations.append(res_pos)
+                                member.reserved_positions = valid_reservations
+                                # Print AFTER validation
+                                if valid_reservations:
+                                    print(f"    ✓ NEW RAPPER '{member.name}' at #{position}, reserved: {valid_reservations}")
+                                else:
+                                    print(f"    ✓ NEW RAPPER '{member.name}' at #{position}, no reservations")
 
                     if member not in group_members:
                         group_members.append(member)
@@ -619,6 +626,11 @@ def generate_top_100():
                             reserved_positions[res_pos] = primary_rapper
                             valid_reservations.append(res_pos)
                     primary_rapper.reserved_positions = valid_reservations
+                    # Print AFTER validation
+                    if valid_reservations:
+                        print(f"    ✓ NEW RAPPER '{primary_rapper.name}' at #{position}, reserved: {valid_reservations}")
+                    else:
+                        print(f"    ✓ NEW RAPPER '{primary_rapper.name}' at #{position}, no reservations")
 
             primary_rapper.albums.append(position)
             primary_rapper.album_dates[position] = release_date
@@ -633,10 +645,19 @@ def generate_top_100():
 
         albums.append(album)
 
+        # Print album details immediately
+        print(f"\n  Album: {album.name}")
+        if album.is_group:
+            member_names = ", ".join([m.name for m in album.group_members])
+            print(f"  Artists: {member_names}")
+        else:
+            print(f"  Artist: {album.primary_rapper.name}")
+        print(f"  Date: {album.release_date}")
+
         # Show remaining reservations after this album
         if reserved_positions:
             reserved_list = sorted(reserved_positions.keys(), reverse=True)
-            print(f"  → Remaining reservations ({len(reserved_list)}): {reserved_list[:10]}{'...' if len(reserved_list) > 10 else ''}")
+            print(f"  → Remaining reservations ({len(reserved_list)}): {reserved_list}")
         else:
             print(f"  → No more reservations remaining")
 
