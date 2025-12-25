@@ -460,11 +460,11 @@ def generate_top_100():
 
         # Generate release date (special handling for reserved positions)
         if position in reserved_positions:
-            # This is a reserved album - use ±15 years from average
+            # This is a reserved album - use ±10 years from average
             primary_rapper = reserved_positions[position]
             avg_year = calculate_rapper_average_year(primary_rapper)
             if avg_year:
-                release_date = generate_random_date(avg_year - 15, avg_year + 15)
+                release_date = generate_random_date(avg_year - 10, avg_year + 10)
             else:
                 release_date = generate_random_date()
         else:
