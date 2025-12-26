@@ -369,33 +369,6 @@ def calculate_rapper_average_year(rapper):
         return sum(years) // len(years)
     return None
 
-def get_group_chance(total_albums, num_group_albums, current_chance):
-    """Determine the probability of next album being a group album"""
-    ratio = num_group_albums / total_albums if total_albums > 0 else 0
-
-    # Start with 1/4 chance
-    if current_chance == 0.25:
-        if ratio >= 1/6:
-            return 1/3
-    # If at 1/3 chance
-    elif current_chance == 1/3:
-        if ratio >= 1/4:
-            return 0.25
-        elif ratio <= 1/8:
-            return 0.5
-    # If at 1/2 chance
-    elif current_chance == 0.5:
-        if ratio >= 1/6:
-            return 1/3
-        elif ratio <= 1/10:
-            return 1.0
-    # If at 1/1 chance (100%)
-    elif current_chance == 1.0:
-        if ratio >= 1/8:
-            return 0.5
-
-    return current_chance
-
 def find_rappers_within_timeframe(all_rappers_dict, current_date, years_range=15):
     """Find rappers with albums within X years of current date"""
     try:
@@ -428,7 +401,6 @@ def generate_top_100():
     reserved_positions = {}  # position -> Rapper object (for reservations)
     used_album_names = set()  # Track used album names to prevent duplicates
 
-    group_chance = 0.25  # Start with 1/4 chance
     num_group_albums = 0
 
     # Generate albums from position 100 down to 1
@@ -462,10 +434,8 @@ def generate_top_100():
         else:
             # Generate release date FIRST so we can filter group members by time
             release_date = generate_random_date()
-            # Then determine if this is a group album
-            total_albums_so_far = 100 - position
-            group_chance = get_group_chance(total_albums_so_far, num_group_albums, group_chance)
-            is_group = random.random() < group_chance
+            # Then determine if this is a group album (33% chance)
+            is_group = random.random() < 0.33
 
         # Select album name (ensure it hasn't been used before)
         available_album_names = [name for name in album_names if name not in used_album_names]
@@ -518,15 +488,13 @@ def generate_top_100():
             primary_rapper.albums.append(position)
             primary_rapper.album_dates[position] = release_date
 
-            # Check if primary rapper has been in a group before
-            existing_group = None
-            for group in all_groups:
-                if primary_rapper in group.members:
-                    existing_group = group
-                    break
+            # Check if primary rapper has been in any groups before
+            rapper_groups = [group for group in all_groups if primary_rapper in group.members]
 
-            # 50% chance to reuse existing group if available
-            if existing_group and random.random() < 0.5:
+            # 50% chance to reuse existing group if they've been in groups before
+            if rapper_groups and random.random() < 0.5:
+                # If they've been in multiple groups, randomly select one
+                existing_group = random.choice(rapper_groups)
                 group_members = existing_group.members
                 existing_group.albums.append(position)
                 # Track this album date for all group members
