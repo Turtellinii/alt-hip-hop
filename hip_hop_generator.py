@@ -372,10 +372,10 @@ def calculate_rapper_average_year(rapper):
 def get_rapper_active_range(rapper, simulation_end=2025):
     """Return (lower, upper) year bounds for a rapper's next album.
 
-    All of a rapper's albums must fall within a 20-year span.
+    All of a rapper's albums must fall within a 14-year span.
     As their existing spread grows, the valid window narrows symmetrically:
       center = average of earliest and latest album years
-      half_width = 20 - spread  (where spread = latest - earliest)
+      half_width = 14 - spread  (where spread = latest - earliest)
       range = [center - half_width, center + half_width]
     """
     if not rapper.album_dates:
@@ -385,7 +385,7 @@ def get_rapper_active_range(rapper, simulation_end=2025):
     max_year = max(years)
     spread = max_year - min_year
     center = (min_year + max_year) / 2
-    half_width = max(20 - spread, 0)
+    half_width = max(14 - spread, 0)
     lower = int(center - half_width)
     upper = min(int(center + half_width), simulation_end)
     return lower, upper
