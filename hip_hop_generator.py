@@ -424,7 +424,6 @@ def generate_top_100():
         # Check if this position is reserved for a specific rapper
         if position in reserved_positions:
             primary_rapper = reserved_positions[position]
-            is_group = False
             # Generate release date for reserved album based on rapper's average
             avg_year = calculate_rapper_average_year(primary_rapper)
             if avg_year:
@@ -432,11 +431,12 @@ def generate_top_100():
             else:
                 release_date = generate_random_date()
         else:
+            primary_rapper = None
             # Generate release date FIRST so we can filter group members by time
             release_date = generate_random_date()
-            # Then determine if this is a group album (33% chance)
-            is_group = random.random() < 0.33
-            print(f"   [DEBUG] Position #{position}: is_group = {is_group}")
+        # Determine if this is a group album (33% chance) - applies to all positions
+        is_group = random.random() < 0.33
+        print(f"   [DEBUG] Position #{position}: is_group = {is_group}")
 
         # Select album name (ensure it hasn't been used before)
         available_album_names = [name for name in album_names if name not in used_album_names]
@@ -447,9 +447,8 @@ def generate_top_100():
             # Fallback if we somehow run out (shouldn't happen with 274 names for 100 albums)
             album_name = random.choice(album_names)
 
-        if position in reserved_positions:
+        if position in reserved_positions and not is_group:
             # This is a reserved solo album
-            primary_rapper = reserved_positions[position]
             primary_rapper.albums.append(position)
             primary_rapper.album_dates[position] = release_date
 
@@ -466,25 +465,29 @@ def generate_top_100():
         elif is_group:
             num_group_albums += 1
 
-            # Generate or select primary rapper
-            if all_reservations_filled and len(all_rappers) > 0:
-                # Can only use existing rappers
-                rapper_name = random.choice(list(all_rappers.keys()))
-                primary_rapper = all_rappers[rapper_name]
+            if primary_rapper is not None:
+                # Primary rapper was reserved for this position - use them as group leader
+                del reserved_positions[position]
             else:
-                rapper_name = random.choice(rapper_names)
-                if rapper_name in all_rappers:
+                # Generate or select primary rapper
+                if all_reservations_filled and len(all_rappers) > 0:
+                    # Can only use existing rappers
+                    rapper_name = random.choice(list(all_rappers.keys()))
                     primary_rapper = all_rappers[rapper_name]
                 else:
-                    personality = get_personality()
-                    primary_rapper = Rapper(rapper_name, personality, position)
-                    all_rappers[rapper_name] = primary_rapper
-                    reserve_album_positions(primary_rapper, position, set(reserved_positions.keys()))
-                    # Add all reservations to the dict
-                    print(f"      [DEBUG] Adding {len(primary_rapper.reserved_positions)} reservations to dict")
-                    for res_pos in primary_rapper.reserved_positions:
-                        reserved_positions[res_pos] = primary_rapper
-                    print(f"      [DEBUG] Dict now has {len(reserved_positions)} total reservations")
+                    rapper_name = random.choice(rapper_names)
+                    if rapper_name in all_rappers:
+                        primary_rapper = all_rappers[rapper_name]
+                    else:
+                        personality = get_personality()
+                        primary_rapper = Rapper(rapper_name, personality, position)
+                        all_rappers[rapper_name] = primary_rapper
+                        reserve_album_positions(primary_rapper, position, set(reserved_positions.keys()))
+                        # Add all reservations to the dict
+                        print(f"      [DEBUG] Adding {len(primary_rapper.reserved_positions)} reservations to dict")
+                        for res_pos in primary_rapper.reserved_positions:
+                            reserved_positions[res_pos] = primary_rapper
+                        print(f"      [DEBUG] Dict now has {len(reserved_positions)} total reservations")
 
             primary_rapper.albums.append(position)
             primary_rapper.album_dates[position] = release_date
