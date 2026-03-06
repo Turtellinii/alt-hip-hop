@@ -436,6 +436,7 @@ def generate_top_100():
             release_date = generate_random_date()
             # Then determine if this is a group album (33% chance)
             is_group = random.random() < 0.33
+            print(f"   [DEBUG] Position #{position}: is_group = {is_group}")
 
         # Select album name (ensure it hasn't been used before)
         available_album_names = [name for name in album_names if name not in used_album_names]
@@ -490,9 +491,11 @@ def generate_top_100():
 
             # Check if primary rapper has been in any groups before
             rapper_groups = [group for group in all_groups if primary_rapper in group.members]
+            print(f"   [DEBUG] Position #{position}: {primary_rapper.name} has been in {len(rapper_groups)} group(s) before")
 
             # 50% chance to reuse existing group if they've been in groups before
             if rapper_groups and random.random() < 0.5:
+                print(f"   [DEBUG] Position #{position}: using former group (reusing existing group)")
                 # If they've been in multiple groups, randomly select one
                 existing_group = random.choice(rapper_groups)
                 group_members = existing_group.members
@@ -513,6 +516,7 @@ def generate_top_100():
                 )
             else:
                 # Create new group
+                print(f"   [DEBUG] Position #{position}: creating new group")
                 num_members = random.randint(2, 5)
                 group_members = [primary_rapper]
 
