@@ -369,21 +369,18 @@ def calculate_rapper_average_year(rapper):
         return sum(years) // len(years)
     return None
 
-def find_rappers_within_timeframe(all_rappers_dict, current_date, years_range=15):
-    """Find rappers with albums within X years of current date"""
+def find_rappers_within_timeframe(all_rappers_dict, current_date):
+    """Find rappers whose debut year + 20 years covers the current date (active window)"""
     try:
-        current_month, current_day, current_year = map(int, current_date.split('/'))
+        current_year = int(current_date.split('/')[2])
 
         valid_rapper_names = []
         for rapper_name, rapper in all_rappers_dict.items():
-            # Check if any of this rapper's albums are within the time range
-            for date_str in rapper.album_dates.values():
-                parts = date_str.split('/')
-                if len(parts) == 3:
-                    year = int(parts[2])
-                    if abs(year - current_year) <= years_range:
-                        valid_rapper_names.append(rapper_name)
-                        break  # Found at least one album in range
+            if not rapper.album_dates:
+                continue
+            debut_year = min(int(d.split('/')[2]) for d in rapper.album_dates.values())
+            if current_year <= debut_year + 20:
+                valid_rapper_names.append(rapper_name)
 
         return valid_rapper_names
     except:
@@ -424,9 +421,18 @@ def generate_top_100():
         # Check if this position is reserved for a specific rapper
         if position in reserved_positions:
             primary_rapper = reserved_positions[position]
-            # Generate release date for reserved album based on rapper's average
+            # Generate release date for reserved album within rapper's active window
             avg_year = calculate_rapper_average_year(primary_rapper)
-            if avg_year:
+            if avg_year and primary_rapper.album_dates:
+                debut_year = min(int(d.split('/')[2]) for d in primary_rapper.album_dates.values())
+                earliest_allowed = debut_year
+                latest_allowed = debut_year + 20
+                low = max(avg_year - 10, earliest_allowed)
+                high = min(avg_year + 10, latest_allowed)
+                if low > high:
+                    low, high = earliest_allowed, latest_allowed
+                release_date = generate_random_date(low, high)
+            elif avg_year:
                 release_date = generate_random_date(avg_year - 10, avg_year + 10)
             else:
                 release_date = generate_random_date()
@@ -470,15 +476,28 @@ def generate_top_100():
                 del reserved_positions[position]
             else:
                 # Generate or select primary rapper
+                release_year = int(release_date.split('/')[2])
                 if all_reservations_filled and len(all_rappers) > 0:
-                    # Can only use existing rappers
-                    rapper_name = random.choice(list(all_rappers.keys()))
+                    # Can only use existing rappers - filter by active window
+                    active_rappers = find_rappers_within_timeframe(all_rappers, release_date)
+                    if active_rappers:
+                        rapper_name = random.choice(active_rappers)
+                    else:
+                        rapper_name = random.choice(list(all_rappers.keys()))
                     primary_rapper = all_rappers[rapper_name]
                 else:
                     rapper_name = random.choice(rapper_names)
                     if rapper_name in all_rappers:
-                        primary_rapper = all_rappers[rapper_name]
-                    else:
+                        existing = all_rappers[rapper_name]
+                        debut = min(int(d.split('/')[2]) for d in existing.album_dates.values()) if existing.album_dates else release_year
+                        if release_year <= debut + 20:
+                            primary_rapper = existing
+                        # else: primary_rapper stays None - existing rapper out of active window
+                    if primary_rapper is None:
+                        # Create a new rapper (name not found, or existing was out of active window)
+                        if rapper_name in all_rappers:
+                            unused = [n for n in rapper_names if n not in all_rappers]
+                            rapper_name = random.choice(unused) if unused else random.choice(rapper_names)
                         personality = get_personality()
                         primary_rapper = Rapper(rapper_name, personality, position)
                         all_rappers[rapper_name] = primary_rapper
@@ -526,10 +545,10 @@ def generate_top_100():
                 # Generate other members
                 for _ in range(num_members - 1):
                     if all_reservations_filled:
-                        # Can only use existing rappers - filter by 15 year timeframe
+                        # Can only use existing rappers - filter by active window
                         if len(all_rappers) > 1:
-                            # Find rappers within 15 years of this album's release date
-                            valid_rappers = find_rappers_within_timeframe(all_rappers, release_date, 15)
+                            # Find rappers still within their 20-year active window
+                            valid_rappers = find_rappers_within_timeframe(all_rappers, release_date)
                             # Exclude rappers already in this group
                             available_rappers = [name for name in valid_rappers if all_rappers[name] not in group_members]
 
@@ -551,8 +570,8 @@ def generate_top_100():
                     else:
                         # 50% chance new rapper, 50% existing rapper
                         if random.random() < 0.5 and len(all_rappers) > 0:
-                            # Find existing rappers within 15 years of this album's release date
-                            valid_rappers = find_rappers_within_timeframe(all_rappers, release_date, 15)
+                            # Find existing rappers still within their 20-year active window
+                            valid_rappers = find_rappers_within_timeframe(all_rappers, release_date)
                             # Exclude rappers already in this group
                             valid_rappers = [name for name in valid_rappers if all_rappers[name] not in group_members]
 
@@ -616,15 +635,28 @@ def generate_top_100():
                 )
         else:
             # Solo album
+            release_year = int(release_date.split('/')[2])
             if all_reservations_filled and len(all_rappers) > 0:
-                # Can only use existing rappers
-                rapper_name = random.choice(list(all_rappers.keys()))
+                # Can only use existing rappers - filter by active window
+                active_rappers = find_rappers_within_timeframe(all_rappers, release_date)
+                if active_rappers:
+                    rapper_name = random.choice(active_rappers)
+                else:
+                    rapper_name = random.choice(list(all_rappers.keys()))
                 primary_rapper = all_rappers[rapper_name]
             else:
                 rapper_name = random.choice(rapper_names)
                 if rapper_name in all_rappers:
-                    primary_rapper = all_rappers[rapper_name]
-                else:
+                    existing = all_rappers[rapper_name]
+                    debut = min(int(d.split('/')[2]) for d in existing.album_dates.values()) if existing.album_dates else release_year
+                    if release_year <= debut + 20:
+                        primary_rapper = existing
+                    # else: primary_rapper stays None - existing rapper out of active window
+                if primary_rapper is None:
+                    # Create a new rapper (name not found, or existing was out of active window)
+                    if rapper_name in all_rappers:
+                        unused = [n for n in rapper_names if n not in all_rappers]
+                        rapper_name = random.choice(unused) if unused else random.choice(rapper_names)
                     personality = get_personality()
                     primary_rapper = Rapper(rapper_name, personality, position)
                     all_rappers[rapper_name] = primary_rapper
