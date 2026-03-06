@@ -369,8 +369,29 @@ def calculate_rapper_average_year(rapper):
         return sum(years) // len(years)
     return None
 
+def get_rapper_active_range(rapper, simulation_end=2025):
+    """Return (lower, upper) year bounds for a rapper's next album.
+
+    All of a rapper's albums must fall within a 20-year span.
+    As their existing spread grows, the valid window narrows symmetrically:
+      center = average of earliest and latest album years
+      half_width = 20 - spread  (where spread = latest - earliest)
+      range = [center - half_width, center + half_width]
+    """
+    if not rapper.album_dates:
+        return None, None
+    years = [int(d.split('/')[2]) for d in rapper.album_dates.values()]
+    min_year = min(years)
+    max_year = max(years)
+    spread = max_year - min_year
+    center = (min_year + max_year) / 2
+    half_width = max(20 - spread, 0)
+    lower = int(center - half_width)
+    upper = min(int(center + half_width), simulation_end)
+    return lower, upper
+
 def find_rappers_within_timeframe(all_rappers_dict, current_date):
-    """Find rappers whose debut year + 20 years covers the current date (active window)"""
+    """Find rappers whose active window includes the current date"""
     try:
         current_year = int(current_date.split('/')[2])
 
@@ -378,8 +399,8 @@ def find_rappers_within_timeframe(all_rappers_dict, current_date):
         for rapper_name, rapper in all_rappers_dict.items():
             if not rapper.album_dates:
                 continue
-            debut_year = min(int(d.split('/')[2]) for d in rapper.album_dates.values())
-            if current_year <= debut_year + 20:
+            lower, upper = get_rapper_active_range(rapper)
+            if lower <= current_year <= upper:
                 valid_rapper_names.append(rapper_name)
 
         return valid_rapper_names
@@ -421,19 +442,10 @@ def generate_top_100():
         # Check if this position is reserved for a specific rapper
         if position in reserved_positions:
             primary_rapper = reserved_positions[position]
-            # Generate release date for reserved album within rapper's active window
-            avg_year = calculate_rapper_average_year(primary_rapper)
-            if avg_year and primary_rapper.album_dates:
-                debut_year = min(int(d.split('/')[2]) for d in primary_rapper.album_dates.values())
-                earliest_allowed = debut_year
-                latest_allowed = debut_year + 20
-                low = max(avg_year - 10, earliest_allowed)
-                high = min(avg_year + 10, latest_allowed)
-                if low > high:
-                    low, high = earliest_allowed, latest_allowed
-                release_date = generate_random_date(low, high)
-            elif avg_year:
-                release_date = generate_random_date(avg_year - 10, avg_year + 10)
+            # Generate release date within the rapper's current active window
+            lower, upper = get_rapper_active_range(primary_rapper)
+            if lower is not None:
+                release_date = generate_random_date(lower, upper)
             else:
                 release_date = generate_random_date()
         else:
@@ -489,8 +501,8 @@ def generate_top_100():
                     rapper_name = random.choice(rapper_names)
                     if rapper_name in all_rappers:
                         existing = all_rappers[rapper_name]
-                        debut = min(int(d.split('/')[2]) for d in existing.album_dates.values()) if existing.album_dates else release_year
-                        if release_year <= debut + 20:
+                        lower, upper = get_rapper_active_range(existing)
+                        if lower is None or lower <= release_year <= upper:
                             primary_rapper = existing
                         # else: primary_rapper stays None - existing rapper out of active window
                     if primary_rapper is None:
@@ -648,8 +660,8 @@ def generate_top_100():
                 rapper_name = random.choice(rapper_names)
                 if rapper_name in all_rappers:
                     existing = all_rappers[rapper_name]
-                    debut = min(int(d.split('/')[2]) for d in existing.album_dates.values()) if existing.album_dates else release_year
-                    if release_year <= debut + 20:
+                    lower, upper = get_rapper_active_range(existing)
+                    if lower is None or lower <= release_year <= upper:
                         primary_rapper = existing
                     # else: primary_rapper stays None - existing rapper out of active window
                 if primary_rapper is None:
