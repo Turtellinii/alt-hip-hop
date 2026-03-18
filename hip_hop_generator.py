@@ -755,7 +755,8 @@ def print_rapper_scores(albums):
     Each album awards (100 - position) points, split equally among all
     rappers who worked on it.
     """
-    scores = {}  # rapper_name -> total points (float)
+    scores = {}   # rapper_name -> total points (float)
+    rappers = {}  # rapper_name -> Rapper object
 
     for album in albums:
         points = 100 - album.position
@@ -763,6 +764,7 @@ def print_rapper_scores(albums):
         share = points / len(workers)
         for rapper in workers:
             scores[rapper.name] = scores.get(rapper.name, 0) + share
+            rappers[rapper.name] = rapper
 
     ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
 
@@ -771,7 +773,11 @@ def print_rapper_scores(albums):
     print("="*80 + "\n")
 
     for i, (name, pts) in enumerate(ranked, 1):
+        rapper = rappers[name]
+        years = [int(d.split('/')[2]) for d in rapper.album_dates.values()]
+        year_range = f"{min(years)}-{max(years)}" if years else "N/A"
         print(f"{i}. {name} - {pts:.1f} pts")
+        print(f"   {rapper.personality} | {year_range}")
 
 if __name__ == "__main__":
     random.seed()  # Use current time as seed for randomness
