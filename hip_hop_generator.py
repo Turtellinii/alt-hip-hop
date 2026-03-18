@@ -749,7 +749,32 @@ def print_chronological(albums):
         else:
             print(f"{i}. {album.name} ({album.primary_rapper.name}, {album.primary_rapper.personality}) [{album.release_date}] {{{album.position}}}")
 
+def print_rapper_scores(albums):
+    """Print rappers ranked by total points earned across all albums.
+
+    Each album awards (100 - position) points, split equally among all
+    rappers who worked on it.
+    """
+    scores = {}  # rapper_name -> total points (float)
+
+    for album in albums:
+        points = 100 - album.position
+        workers = album.group_members if album.is_group else [album.primary_rapper]
+        share = points / len(workers)
+        for rapper in workers:
+            scores[rapper.name] = scores.get(rapper.name, 0) + share
+
+    ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
+
+    print("\n" + "="*80)
+    print("RAPPER RANKINGS BY POINTS")
+    print("="*80 + "\n")
+
+    for i, (name, pts) in enumerate(ranked, 1):
+        print(f"{i}. {name} - {pts:.1f} pts")
+
 if __name__ == "__main__":
     random.seed()  # Use current time as seed for randomness
     albums = generate_top_100()
     print_chronological(albums)
+    print_rapper_scores(albums)
