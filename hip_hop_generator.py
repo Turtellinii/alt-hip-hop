@@ -744,11 +744,12 @@ def print_chronological(albums):
 
     for i, album in enumerate(sorted_albums, 1):
         if album.is_group:
-            # Format: Rapper Name, Personality;; Rapper Name, Personality
-            artists = ";; ".join([f"{m.name}, {m.personality}" for m in album.group_members])
+            # Format: Rapper Name, Personality, Region;; Rapper Name, Personality, Region
+            artists = ";; ".join([f"{m.name}, {m.personality}, {m.region}" for m in album.group_members])
             print(f"{i}. {album.name} ({artists}) [{album.release_date}] {{{album.position}}}")
         else:
-            print(f"{i}. {album.name} ({album.primary_rapper.name}, {album.primary_rapper.personality}) [{album.release_date}] {{{album.position}}}")
+            r = album.primary_rapper
+            print(f"{i}. {album.name} ({r.name}, {r.personality}, {r.region}) [{album.release_date}] {{{album.position}}}")
 
 def print_rapper_scores(albums):
     """Print rappers ranked by total points earned across all albums.
