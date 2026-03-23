@@ -283,6 +283,7 @@ class Rapper:
         self.name = name
         self.personality = personality
         self.first_album_position = first_album_position
+        self.region = random.choice(["East", "West", "South", "Midwest"])
         self.reserved_positions = []
         self.albums = []  # List of album positions this rapper appears in
         self.album_dates = {}  # Dictionary: position -> release_date string
@@ -777,7 +778,7 @@ def print_rapper_scores(albums):
         years = [int(d.split('/')[2]) for d in rapper.album_dates.values()]
         year_range = f"{min(years)}-{max(years)}" if years else "N/A"
         print(f"{i}. {name} - {pts:.1f} pts")
-        print(f"   {rapper.personality} | {year_range}")
+        print(f"   {rapper.personality} | {rapper.region} | {year_range}")
 
 if __name__ == "__main__":
     random.seed()  # Use current time as seed for randomness
