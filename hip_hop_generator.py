@@ -409,9 +409,9 @@ def find_rappers_within_timeframe(all_rappers_dict, current_date):
         return []
 
 def generate_top_100():
-    """Generate the top 100 albums"""
+    """Generate the top 250 albums"""
     print("\n" + "="*80)
-    print("ALTERNATE HIP HOP HISTORY - TOP 100 ALBUMS")
+    print("ALTERNATE HIP HOP HISTORY - TOP 250 ALBUMS")
     print("="*80 + "\n")
 
     albums = []
@@ -422,8 +422,8 @@ def generate_top_100():
 
     num_group_albums = 0
 
-    # Generate albums from position 100 down to 1
-    for position in range(100, 0, -1):
+    # Generate albums from position 250 down to 1
+    for position in range(250, 0, -1):
         print(f"\n{'='*60}")
         print(f"POSITION #{position}")
         print(f"{'='*60}")
@@ -463,7 +463,7 @@ def generate_top_100():
             album_name = random.choice(available_album_names)
             used_album_names.add(album_name)
         else:
-            # Fallback if we somehow run out (shouldn't happen with 274 names for 100 albums)
+            # Fallback if we somehow run out (shouldn't happen with 274 names for 250 albums)
             album_name = random.choice(album_names)
 
         if position in reserved_positions and not is_group:
@@ -709,9 +709,9 @@ def generate_top_100():
     return albums
 
 def print_top_100(albums):
-    """Print the top 100 list"""
+    """Print the top 250 list"""
     print("\n" + "="*80)
-    print("ALTERNATE HIP HOP HISTORY - TOP 100 ALBUMS")
+    print("ALTERNATE HIP HOP HISTORY - TOP 250 ALBUMS")
     print("="*80 + "\n")
 
     for album in albums:
@@ -754,14 +754,14 @@ def print_chronological(albums):
 def print_rapper_scores(albums):
     """Print rappers ranked by total points earned across all albums.
 
-    Each album awards (100 - position) points, split equally among all
+    Each album awards (250 - position) points, split equally among all
     rappers who worked on it.
     """
     scores = {}   # rapper_name -> total points (float)
     rappers = {}  # rapper_name -> Rapper object
 
     for album in albums:
-        points = 100 - album.position
+        points = 250 - album.position
         workers = album.group_members if album.is_group else [album.primary_rapper]
         share = points / len(workers)
         for rapper in workers:
