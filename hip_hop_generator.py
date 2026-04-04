@@ -757,8 +757,15 @@ def print_rapper_scores(albums):
     Each album awards (250 - position) points, split equally among all
     rappers who worked on it.
     """
-    scores = {}   # rapper_name -> total points (float)
-    rappers = {}  # rapper_name -> Rapper object
+    import datetime
+
+    def parse_date(date_str):
+        month, day, year = map(int, date_str.split('/'))
+        return datetime.datetime(year, month, day)
+
+    scores = {}       # rapper_name -> total points (float)
+    rappers = {}      # rapper_name -> Rapper object
+    discography = {}  # rapper_name -> list of albums
 
     for album in albums:
         points = 250 - album.position
@@ -767,6 +774,7 @@ def print_rapper_scores(albums):
         for rapper in workers:
             scores[rapper.name] = scores.get(rapper.name, 0) + share
             rappers[rapper.name] = rapper
+            discography.setdefault(rapper.name, []).append(album)
 
     ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
 
@@ -780,6 +788,16 @@ def print_rapper_scores(albums):
         year_range = f"{min(years)}-{max(years)}" if years else "N/A"
         print(f"{i}. {name} - {pts:.1f} pts")
         print(f"   {rapper.personality} | {rapper.region} | {year_range}")
+
+        sorted_albums = sorted(discography[name], key=lambda a: parse_date(a.release_date))
+        for album in sorted_albums:
+            if album.is_group:
+                others = [m for m in album.group_members if m.name != name]
+                others_str = ";; ".join([f"{m.name}, {m.personality}, {m.region}" for m in others])
+                print(f"   - {album.name} (w/ {others_str}) [{album.release_date}] {{{album.position}}}")
+            else:
+                print(f"   - {album.name} [{album.release_date}] {{{album.position}}}")
+        print()
 
 if __name__ == "__main__":
     random.seed()  # Use current time as seed for randomness
