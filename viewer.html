@@ -151,6 +151,19 @@ body {
     overflow: hidden;
 }
 
+.scrollable {
+    display: flex;
+    flex-direction: column;
+}
+.scrollable .scroll-body {
+    overflow-y: auto;
+    max-height: 400px;
+    padding-right: 0.25rem;
+}
+.scrollable .scroll-body::-webkit-scrollbar { width: 5px; }
+.scrollable .scroll-body::-webkit-scrollbar-track { background: transparent; }
+.scrollable .scroll-body::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+
 .section-title {
     font-size: 0.75rem;
     font-weight: 700;
@@ -360,7 +373,7 @@ function renderSlide() {
     let discoInner = '';
     for (const artist of album.artists) {
         const artistAlbums = upToNow.filter(a => a.artists.some(m => m.name === artist.name));
-        discoInner += `<div class="sub-title">${esc(artist.name)}</div>`;
+        discoInner += `<div class="sub-title">${esc(artist.name)} <span style="color:#666;font-weight:400;text-transform:none;letter-spacing:0">(${esc(artist.personality)}, ${esc(artist.region)})</span></div>`;
         discoInner += artistAlbums.length > 0
             ? artistAlbums.map(a => entryHTML(a, new Set([artist.name]))).join('')
             : `<div class="none-msg">No releases yet</div>`;
@@ -392,10 +405,12 @@ function renderSlide() {
     }
 
     const discoSection = `
-        <div class="section">
+        <div class="section scrollable">
             <div class="section-title">Discographies</div>
-            ${discoInner}
-            ${isGroup ? `<div class="section-title" style="margin-top:1rem">Past Collaborations</div>${collabInner}` : ''}
+            <div class="scroll-body">
+                ${discoInner}
+                ${isGroup ? `<div class="section-title" style="margin-top:1rem">Past Collaborations</div>${collabInner}` : ''}
+            </div>
         </div>`;
 
     // ── Top 25 so far ──
@@ -413,9 +428,9 @@ function renderSlide() {
     }).join('');
 
     const top25Section = `
-        <div class="section">
+        <div class="section scrollable">
             <div class="section-title">Top 25 So Far</div>
-            ${top25Inner}
+            <div class="scroll-body">${top25Inner}</div>
         </div>`;
 
     // ── Points leaderboard ──
@@ -444,9 +459,9 @@ function renderSlide() {
     `</div>`;
 
     const ptsSection = `
-        <div class="section full-width">
+        <div class="section full-width scrollable">
             <div class="section-title">Points Leaderboard</div>
-            ${ptsInner}
+            <div class="scroll-body">${ptsInner}</div>
         </div>`;
 
     document.getElementById('slide-content').innerHTML =
