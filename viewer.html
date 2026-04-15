@@ -317,7 +317,7 @@ function esc(s) {
 function entryHTML(album, highlightNames) {
     const others = album.artists.filter(a => !highlightNames || !highlightNames.has(a.name));
     const collabStr = others.length > 0
-        ? ` <span class="entry-collab">w/ ${others.map(a => esc(a.name)).join(', ')}</span>`
+        ? ` <span class="entry-collab">w/ ${others.map(a => `${esc(a.name)} <span class="entry-meta">(${esc(a.personality)}, ${esc(a.region)})</span>`).join(', ')}</span>`
         : '';
     return `<div class="entry">
         <span class="entry-title">${esc(album.title)}</span>${collabStr}
@@ -401,11 +401,14 @@ function renderSlide() {
     // ── Top 25 so far ──
     const top25 = [...upToNow].sort((a, b) => a.position - b.position).slice(0, 25);
     const top25Inner = top25.map((a, i) => {
-        const names = a.artists.map(m => esc(m.name)).join(', ');
+        const artistStr = a.artists.map(m =>
+            `${esc(m.name)} <span class="entry-meta">(${esc(m.personality)}, ${esc(m.region)})</span>`
+        ).join(', ');
         return `<div class="entry">
             <span class="entry-rank">${i + 1}.</span>
             <span class="entry-title">${esc(a.title)}</span>
-            <span class="entry-meta"> — ${names} {${a.position}}</span>
+            <span class="entry-meta"> — </span>${artistStr}
+            <span class="entry-meta"> {${a.position}}</span>
         </div>`;
     }).join('');
 
@@ -417,18 +420,27 @@ function renderSlide() {
 
     // ── Points leaderboard ──
     const pts = {};
+    const artistData = {}; // name -> {personality, region}
     for (const a of upToNow) {
         const share = (250 - a.position) / a.artists.length;
-        for (const m of a.artists) pts[m.name] = (pts[m.name] || 0) + share;
+        for (const m of a.artists) {
+            pts[m.name] = (pts[m.name] || 0) + share;
+            artistData[m.name] = { personality: m.personality, region: m.region };
+        }
     }
     const ranked = Object.entries(pts).sort((a, b) => b[1] - a[1]);
     const ptsInner = `<div class="points-grid">` +
-        ranked.map(([name, score], i) =>
-            `<div class="points-row">
-                <span><span class="entry-rank">${i + 1}.</span> ${esc(name)}</span>
+        ranked.map(([name, score], i) => {
+            const info = artistData[name];
+            return `<div class="points-row">
+                <span>
+                    <span class="entry-rank">${i + 1}.</span>
+                    ${esc(name)}
+                    <span class="entry-meta">(${esc(info.personality)}, ${esc(info.region)})</span>
+                </span>
                 <span class="points-val">${score.toFixed(1)}</span>
-            </div>`
-        ).join('') +
+            </div>`;
+        }).join('') +
     `</div>`;
 
     const ptsSection = `
