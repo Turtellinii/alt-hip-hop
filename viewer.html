@@ -423,7 +423,7 @@ function renderSlide() {
             <span class="entry-rank">${i + 1}.</span>
             <span class="entry-title">${esc(a.title)}</span>
             <span class="entry-meta"> — </span>${artistStr}
-            <span class="entry-meta"> {${a.position}}</span>
+            <span class="entry-meta"> [${esc(a.date)}] {${a.position}}</span>
         </div>`;
     }).join('');
 
